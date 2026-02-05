@@ -1,0 +1,24 @@
+# Composable! Ecommerce - HarperDB schema
+
+type Product @table @export {
+  id: ID @primaryKey
+  url: String
+  title: String
+  brand: String
+  price: String
+  price_value: Float
+  currency: String
+  sizes: [String]
+  description: String
+  product_details: [String]
+  category: String @indexed
+  images: [String]
+  list_name: String
+  list_price: String
+}
+
+# Cache table for product taglines from external CMS. 3 min TTL, read-through from ProductTaglineSource.
+type ProductTagline @table(expiration: 180) @export {
+  id: ID @primaryKey
+  tagline: String
+}

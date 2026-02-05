@@ -1,0 +1,1822 @@
+{
+  "list_url": "/catalog",
+  "list_products": [
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $495.00",
+      "detail_url": "/mens/classic-wool-blazer-1000.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $385.00",
+      "detail_url": "/mens/cashmere-crewneck-sweater-1001.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $165.00",
+      "detail_url": "/mens/slim-fit-oxford-shirt-1002.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $425.00",
+      "detail_url": "/mens/leather-derby-shoes-1003.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $295.00",
+      "detail_url": "/mens/wool-trousers-1004.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $345.00",
+      "detail_url": "/mens/quilted-nylon-jacket-1005.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $125.00",
+      "detail_url": "/mens/silk-tie-1006.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $145.00",
+      "detail_url": "/mens/leather-belt-1007.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $135.00",
+      "detail_url": "/mens/cotton-chino-shorts-1008.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $275.00",
+      "detail_url": "/mens/merino-wool-cardigan-1009.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $425.00",
+      "detail_url": "/womens/silk-midi-dress-1010.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $895.00",
+      "detail_url": "/womens/cashmere-wrap-coat-1011.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $550.00",
+      "detail_url": "/womens/leather-tote-bag-1012.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $285.00",
+      "detail_url": "/womens/wool-blend-trousers-1013.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $245.00",
+      "detail_url": "/womens/silk-blouse-1014.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $395.00",
+      "detail_url": "/womens/suede-ankle-boots-1015.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $165.00",
+      "detail_url": "/womens/knit-midi-skirt-1016.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $325.00",
+      "detail_url": "/womens/leather-crossbody-1017.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $365.00",
+      "detail_url": "/womens/linen-blazer-1018.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $185.00",
+      "detail_url": "/womens/pearl-stud-earrings-1019.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $48.00",
+      "detail_url": "/baby/organic-cotton-bodysuit-3-pack-1020.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $52.00",
+      "detail_url": "/baby/knit-romper-1021.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $78.00",
+      "detail_url": "/baby/fleece-bunting-1022.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $42.00",
+      "detail_url": "/baby/cotton-receiving-blanket-1023.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $32.00",
+      "detail_url": "/baby/knit-booties-1024.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $58.00",
+      "detail_url": "/baby/organic-cotton-sleep-sack-1025.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $28.00",
+      "detail_url": "/baby/rattle-&-teether-set-1026.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $45.00",
+      "detail_url": "/baby/hooded-towel-1027.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $38.00",
+      "detail_url": "/baby/knit-hat-&-mittens-set-1028.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $44.00",
+      "detail_url": "/baby/cotton-pajama-set-1029.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $42.00",
+      "detail_url": "/boys/polo-shirt-1030.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $48.00",
+      "detail_url": "/boys/cargo-shorts-1031.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $55.00",
+      "detail_url": "/boys/hooded-sweatshirt-1032.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $52.00",
+      "detail_url": "/boys/chino-pants-1033.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $45.00",
+      "detail_url": "/boys/canvas-sneakers-1034.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $32.00",
+      "detail_url": "/boys/graphic-tee-1035.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $68.00",
+      "detail_url": "/boys/quilted-jacket-1036.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $38.00",
+      "detail_url": "/boys/swim-trunks-1037.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $98.00",
+      "detail_url": "/boys/wool-blend-blazer-1038.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $65.00",
+      "detail_url": "/boys/backpack-1039.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $68.00",
+      "detail_url": "/girls/floral-dress-1040.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $52.00",
+      "detail_url": "/girls/cardigan-1041.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $38.00",
+      "detail_url": "/girls/leggings-2-pack-1042.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $48.00",
+      "detail_url": "/girls/mary-jane-shoes-1043.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $42.00",
+      "detail_url": "/girls/tutu-skirt-1044.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $28.00",
+      "detail_url": "/girls/long-sleeve-tee-1045.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $58.00",
+      "detail_url": "/girls/puffer-vest-1046.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $22.00",
+      "detail_url": "/girls/hair-bow-set-1047.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $62.00",
+      "detail_url": "/girls/denim-jacket-1048.html"
+    },
+    {
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $45.00",
+      "detail_url": "/girls/sparkle-sneakers-1049.html"
+    }
+  ],
+  "details": [
+    {
+      "system_id": "classic-wool-blazer-1000",
+      "url": "/mens/classic-wool-blazer-1000.html",
+      "title": "Classic Wool Blazer",
+      "brand": "Composable!",
+      "price": "USD $495.00",
+      "price_value": 495.0,
+      "currency": "USD",
+      "sizes": [
+        "36R",
+        "38R",
+        "40R",
+        "42R",
+        "44R",
+        "46R"
+      ],
+      "description": "Tailored Italian wool blazer with notch lapels and signature Composable! lining. Timeless silhouette for the modern gentleman.",
+      "product_details": [
+        "Category: Mens.",
+        "Tailored Italian wool blazer with notch lapels and signature Composable! lining. Timeless silhouette for the modern gentleman.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/mens-classic-wool-blazer-1000-1.png",
+        "images/mens-classic-wool-blazer-1000-2.png",
+        "images/mens-classic-wool-blazer-1000-3.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $495.00"
+    },
+    {
+      "system_id": "cashmere-crewneck-sweater-1001",
+      "url": "/mens/cashmere-crewneck-sweater-1001.html",
+      "title": "Cashmere Crewneck Sweater",
+      "brand": "Composable!",
+      "price": "USD $385.00",
+      "price_value": 385.0,
+      "currency": "USD",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "description": "Ultra-soft Mongolian cashmere in a relaxed crewneck. A wardrobe essential from Composable!.",
+      "product_details": [
+        "Category: Mens.",
+        "Ultra-soft Mongolian cashmere in a relaxed crewneck. A wardrobe essential from Composable!.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $385.00"
+    },
+    {
+      "system_id": "slim-fit-oxford-shirt-1002",
+      "url": "/mens/slim-fit-oxford-shirt-1002.html",
+      "title": "Slim Fit Oxford Shirt",
+      "brand": "Composable!",
+      "price": "USD $165.00",
+      "price_value": 165.0,
+      "currency": "USD",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "description": "Crisp cotton oxford with mother-of-pearl buttons. Slim fit cut for a polished look.",
+      "product_details": [
+        "Category: Mens.",
+        "Crisp cotton oxford with mother-of-pearl buttons. Slim fit cut for a polished look.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $165.00"
+    },
+    {
+      "system_id": "leather-derby-shoes-1003",
+      "url": "/mens/leather-derby-shoes-1003.html",
+      "title": "Leather Derby Shoes",
+      "brand": "Composable!",
+      "price": "USD $425.00",
+      "price_value": 425.0,
+      "currency": "USD",
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "description": "Handcrafted calfskin derby with rubber sole. Built for comfort and lasting style.",
+      "product_details": [
+        "Category: Mens.",
+        "Handcrafted calfskin derby with rubber sole. Built for comfort and lasting style.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $425.00"
+    },
+    {
+      "system_id": "wool-trousers-1004",
+      "url": "/mens/wool-trousers-1004.html",
+      "title": "Wool Trousers",
+      "brand": "Composable!",
+      "price": "USD $295.00",
+      "price_value": 295.0,
+      "currency": "USD",
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "description": "Medium-weight stretch wool trousers with pressed crease. Perfect for office or evening.",
+      "product_details": [
+        "Category: Mens.",
+        "Medium-weight stretch wool trousers with pressed crease. Perfect for office or evening.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $295.00"
+    },
+    {
+      "system_id": "quilted-nylon-jacket-1005",
+      "url": "/mens/quilted-nylon-jacket-1005.html",
+      "title": "Quilted Nylon Jacket",
+      "brand": "Composable!",
+      "price": "USD $345.00",
+      "price_value": 345.0,
+      "currency": "USD",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "description": "Lightweight quilted jacket with ribbed cuffs. Water-resistant finish.",
+      "product_details": [
+        "Category: Mens.",
+        "Lightweight quilted jacket with ribbed cuffs. Water-resistant finish.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $345.00"
+    },
+    {
+      "system_id": "silk-tie-1006",
+      "url": "/mens/silk-tie-1006.html",
+      "title": "Silk Tie",
+      "brand": "Composable!",
+      "price": "USD $125.00",
+      "price_value": 125.0,
+      "currency": "USD",
+      "sizes": [
+        "One Size"
+      ],
+      "description": "Seven-fold silk tie in a classic width. Made in Italy.",
+      "product_details": [
+        "Category: Mens.",
+        "Seven-fold silk tie in a classic width. Made in Italy.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $125.00"
+    },
+    {
+      "system_id": "leather-belt-1007",
+      "url": "/mens/leather-belt-1007.html",
+      "title": "Leather Belt",
+      "brand": "Composable!",
+      "price": "USD $145.00",
+      "price_value": 145.0,
+      "currency": "USD",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Full-grain leather belt with brushed silver buckle. 32 mm width.",
+      "product_details": [
+        "Category: Mens.",
+        "Full-grain leather belt with brushed silver buckle. 32 mm width.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $145.00"
+    },
+    {
+      "system_id": "cotton-chino-shorts-1008",
+      "url": "/mens/cotton-chino-shorts-1008.html",
+      "title": "Cotton Chino Shorts",
+      "brand": "Composable!",
+      "price": "USD $135.00",
+      "price_value": 135.0,
+      "currency": "USD",
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "description": "Garment-dyed cotton chinos with side pockets. Relaxed fit for summer.",
+      "product_details": [
+        "Category: Mens.",
+        "Garment-dyed cotton chinos with side pockets. Relaxed fit for summer.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $135.00"
+    },
+    {
+      "system_id": "merino-wool-cardigan-1009",
+      "url": "/mens/merino-wool-cardigan-1009.html",
+      "title": "Merino Wool Cardigan",
+      "brand": "Composable!",
+      "price": "USD $275.00",
+      "price_value": 275.0,
+      "currency": "USD",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "description": "Fine-gauge merino cardigan with horn buttons. Layer piece for year-round wear.",
+      "product_details": [
+        "Category: Mens.",
+        "Fine-gauge merino cardigan with horn buttons. Layer piece for year-round wear.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Mens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $275.00"
+    },
+    {
+      "system_id": "silk-midi-dress-1010",
+      "url": "/womens/silk-midi-dress-1010.html",
+      "title": "Silk Midi Dress",
+      "brand": "Composable!",
+      "price": "USD $425.00",
+      "price_value": 425.0,
+      "currency": "USD",
+      "sizes": [
+        "XXS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Fluid silk dress with concealed zip. Elegant midi length for day or evening.",
+      "product_details": [
+        "Category: Womens.",
+        "Fluid silk dress with concealed zip. Elegant midi length for day or evening.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/womens-silk-midi-dress-1010-1.png",
+        "images/womens-silk-midi-dress-1010-2.png",
+        "images/womens-silk-midi-dress-1010-3.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $425.00"
+    },
+    {
+      "system_id": "cashmere-wrap-coat-1011",
+      "url": "/womens/cashmere-wrap-coat-1011.html",
+      "title": "Cashmere Wrap Coat",
+      "brand": "Composable!",
+      "price": "USD $895.00",
+      "price_value": 895.0,
+      "currency": "USD",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Double-faced cashmere wrap coat with tie belt. Investment outerwear.",
+      "product_details": [
+        "Category: Womens.",
+        "Double-faced cashmere wrap coat with tie belt. Investment outerwear.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $895.00"
+    },
+    {
+      "system_id": "leather-tote-bag-1012",
+      "url": "/womens/leather-tote-bag-1012.html",
+      "title": "Leather Tote Bag",
+      "brand": "Composable!",
+      "price": "USD $550.00",
+      "price_value": 550.0,
+      "currency": "USD",
+      "sizes": [
+        "One Size"
+      ],
+      "description": "Structured leather tote with gold-tone hardware. Spacious interior with zip pocket.",
+      "product_details": [
+        "Category: Womens.",
+        "Structured leather tote with gold-tone hardware. Spacious interior with zip pocket.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $550.00"
+    },
+    {
+      "system_id": "wool-blend-trousers-1013",
+      "url": "/womens/wool-blend-trousers-1013.html",
+      "title": "Wool Blend Trousers",
+      "brand": "Composable!",
+      "price": "USD $285.00",
+      "price_value": 285.0,
+      "currency": "USD",
+      "sizes": [
+        "00",
+        "0",
+        "2",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "High-waist wide-leg trousers in stretch wool. Pressed crease front.",
+      "product_details": [
+        "Category: Womens.",
+        "High-waist wide-leg trousers in stretch wool. Pressed crease front.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $285.00"
+    },
+    {
+      "system_id": "silk-blouse-1014",
+      "url": "/womens/silk-blouse-1014.html",
+      "title": "Silk Blouse",
+      "brand": "Composable!",
+      "price": "USD $245.00",
+      "price_value": 245.0,
+      "currency": "USD",
+      "sizes": [
+        "XXS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Cowl neck silk blouse with French seams. Available in seasonal colors.",
+      "product_details": [
+        "Category: Womens.",
+        "Cowl neck silk blouse with French seams. Available in seasonal colors.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $245.00"
+    },
+    {
+      "system_id": "suede-ankle-boots-1015",
+      "url": "/womens/suede-ankle-boots-1015.html",
+      "title": "Suede Ankle Boots",
+      "brand": "Composable!",
+      "price": "USD $395.00",
+      "price_value": 395.0,
+      "currency": "USD",
+      "sizes": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "description": "Block-heel suede ankle boots with side zip. Comfortable all-day height.",
+      "product_details": [
+        "Category: Womens.",
+        "Block-heel suede ankle boots with side zip. Comfortable all-day height.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $395.00"
+    },
+    {
+      "system_id": "knit-midi-skirt-1016",
+      "url": "/womens/knit-midi-skirt-1016.html",
+      "title": "Knit Midi Skirt",
+      "brand": "Composable!",
+      "price": "USD $165.00",
+      "price_value": 165.0,
+      "currency": "USD",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Ribbed knit skirt with side slit. Pairs with blazers or sweaters.",
+      "product_details": [
+        "Category: Womens.",
+        "Ribbed knit skirt with side slit. Pairs with blazers or sweaters.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $165.00"
+    },
+    {
+      "system_id": "leather-crossbody-1017",
+      "url": "/womens/leather-crossbody-1017.html",
+      "title": "Leather Crossbody",
+      "brand": "Composable!",
+      "price": "USD $325.00",
+      "price_value": 325.0,
+      "currency": "USD",
+      "sizes": [
+        "One Size"
+      ],
+      "description": "Compact crossbody in pebbled leather. Adjustable strap.",
+      "product_details": [
+        "Category: Womens.",
+        "Compact crossbody in pebbled leather. Adjustable strap.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $325.00"
+    },
+    {
+      "system_id": "linen-blazer-1018",
+      "url": "/womens/linen-blazer-1018.html",
+      "title": "Linen Blazer",
+      "brand": "Composable!",
+      "price": "USD $365.00",
+      "price_value": 365.0,
+      "currency": "USD",
+      "sizes": [
+        "XXS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Unlined linen blazer for warm weather. Relaxed fit with patch pockets.",
+      "product_details": [
+        "Category: Womens.",
+        "Unlined linen blazer for warm weather. Relaxed fit with patch pockets.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $365.00"
+    },
+    {
+      "system_id": "pearl-stud-earrings-1019",
+      "url": "/womens/pearl-stud-earrings-1019.html",
+      "title": "Pearl Stud Earrings",
+      "brand": "Composable!",
+      "price": "USD $185.00",
+      "price_value": 185.0,
+      "currency": "USD",
+      "sizes": [
+        "One Size"
+      ],
+      "description": "18k gold post with cultured pearl. Timeless everyday elegance.",
+      "product_details": [
+        "Category: Womens.",
+        "18k gold post with cultured pearl. Timeless everyday elegance.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Womens",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $185.00"
+    },
+    {
+      "system_id": "organic-cotton-bodysuit-3-pack-1020",
+      "url": "/baby/organic-cotton-bodysuit-3-pack-1020.html",
+      "title": "Organic Cotton Bodysuit 3-Pack",
+      "brand": "Composable!",
+      "price": "USD $48.00",
+      "price_value": 48.0,
+      "currency": "USD",
+      "sizes": [
+        "0-3M",
+        "3-6M",
+        "6-9M",
+        "9-12M",
+        "12-18M"
+      ],
+      "description": "Soft organic cotton bodysuits with snap closure. Gentle on newborn skin.",
+      "product_details": [
+        "Category: Baby.",
+        "Soft organic cotton bodysuits with snap closure. Gentle on newborn skin.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/baby-organic-cotton-bodysuit-3-pack-1020-1.png",
+        "images/baby-organic-cotton-bodysuit-3-pack-1020-2.png",
+        "images/baby-organic-cotton-bodysuit-3-pack-1020-3.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $48.00"
+    },
+    {
+      "system_id": "knit-romper-1021",
+      "url": "/baby/knit-romper-1021.html",
+      "title": "Knit Romper",
+      "brand": "Composable!",
+      "price": "USD $52.00",
+      "price_value": 52.0,
+      "currency": "USD",
+      "sizes": [
+        "0-3M",
+        "3-6M",
+        "6-9M",
+        "9-12M",
+        "12-18M",
+        "18-24M"
+      ],
+      "description": "Breathable cotton knit romper with envelope neck. Easy diaper access.",
+      "product_details": [
+        "Category: Baby.",
+        "Breathable cotton knit romper with envelope neck. Easy diaper access.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $52.00"
+    },
+    {
+      "system_id": "fleece-bunting-1022",
+      "url": "/baby/fleece-bunting-1022.html",
+      "title": "Fleece Bunting",
+      "brand": "Composable!",
+      "price": "USD $78.00",
+      "price_value": 78.0,
+      "currency": "USD",
+      "sizes": [
+        "0-3M",
+        "3-6M",
+        "6-9M",
+        "9-12M"
+      ],
+      "description": "Cozy fleece bunting with fold-over mitts and feet. For cold-weather outings.",
+      "product_details": [
+        "Category: Baby.",
+        "Cozy fleece bunting with fold-over mitts and feet. For cold-weather outings.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $78.00"
+    },
+    {
+      "system_id": "cotton-receiving-blanket-1023",
+      "url": "/baby/cotton-receiving-blanket-1023.html",
+      "title": "Cotton Receiving Blanket",
+      "brand": "Composable!",
+      "price": "USD $42.00",
+      "price_value": 42.0,
+      "currency": "USD",
+      "sizes": [
+        "One Size"
+      ],
+      "description": "Lightweight muslin receiving blanket. Perfect for swaddling or stroller.",
+      "product_details": [
+        "Category: Baby.",
+        "Lightweight muslin receiving blanket. Perfect for swaddling or stroller.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $42.00"
+    },
+    {
+      "system_id": "knit-booties-1024",
+      "url": "/baby/knit-booties-1024.html",
+      "title": "Knit Booties",
+      "brand": "Composable!",
+      "price": "USD $32.00",
+      "price_value": 32.0,
+      "currency": "USD",
+      "sizes": [
+        "0-6M",
+        "6-12M",
+        "12-18M"
+      ],
+      "description": "Soft knit booties with ribbed cuff. Non-slip sole for first steps.",
+      "product_details": [
+        "Category: Baby.",
+        "Soft knit booties with ribbed cuff. Non-slip sole for first steps.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $32.00"
+    },
+    {
+      "system_id": "organic-cotton-sleep-sack-1025",
+      "url": "/baby/organic-cotton-sleep-sack-1025.html",
+      "title": "Organic Cotton Sleep Sack",
+      "brand": "Composable!",
+      "price": "USD $58.00",
+      "price_value": 58.0,
+      "currency": "USD",
+      "sizes": [
+        "0-6M",
+        "6-12M",
+        "12-18M",
+        "18-24M"
+      ],
+      "description": "Long-sleeve sleep sack in GOTS organic cotton. Safe sleep design.",
+      "product_details": [
+        "Category: Baby.",
+        "Long-sleeve sleep sack in GOTS organic cotton. Safe sleep design.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $58.00"
+    },
+    {
+      "system_id": "rattle-&-teether-set-1026",
+      "url": "/baby/rattle-&-teether-set-1026.html",
+      "title": "Rattle & Teether Set",
+      "brand": "Composable!",
+      "price": "USD $28.00",
+      "price_value": 28.0,
+      "currency": "USD",
+      "sizes": [
+        "One Size"
+      ],
+      "description": "BPA-free silicone teether and wooden rattle. Developmental play.",
+      "product_details": [
+        "Category: Baby.",
+        "BPA-free silicone teether and wooden rattle. Developmental play.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $28.00"
+    },
+    {
+      "system_id": "hooded-towel-1027",
+      "url": "/baby/hooded-towel-1027.html",
+      "title": "Hooded Towel",
+      "brand": "Composable!",
+      "price": "USD $45.00",
+      "price_value": 45.0,
+      "currency": "USD",
+      "sizes": [
+        "One Size"
+      ],
+      "description": "Absorbent hooded towel with embroidered Composable! logo. Post-bath comfort.",
+      "product_details": [
+        "Category: Baby.",
+        "Absorbent hooded towel with embroidered Composable! logo. Post-bath comfort.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $45.00"
+    },
+    {
+      "system_id": "knit-hat-&-mittens-set-1028",
+      "url": "/baby/knit-hat-&-mittens-set-1028.html",
+      "title": "Knit Hat & Mittens Set",
+      "brand": "Composable!",
+      "price": "USD $38.00",
+      "price_value": 38.0,
+      "currency": "USD",
+      "sizes": [
+        "0-6M",
+        "6-12M",
+        "12-18M"
+      ],
+      "description": "Matching knit hat and mittens in soft merino blend.",
+      "product_details": [
+        "Category: Baby.",
+        "Matching knit hat and mittens in soft merino blend.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $38.00"
+    },
+    {
+      "system_id": "cotton-pajama-set-1029",
+      "url": "/baby/cotton-pajama-set-1029.html",
+      "title": "Cotton Pajama Set",
+      "brand": "Composable!",
+      "price": "USD $44.00",
+      "price_value": 44.0,
+      "currency": "USD",
+      "sizes": [
+        "0-3M",
+        "3-6M",
+        "6-9M",
+        "9-12M",
+        "12-18M"
+      ],
+      "description": "Two-piece pajama set in breathable cotton. Snap closure top.",
+      "product_details": [
+        "Category: Baby.",
+        "Two-piece pajama set in breathable cotton. Snap closure top.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Baby",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $44.00"
+    },
+    {
+      "system_id": "polo-shirt-1030",
+      "url": "/boys/polo-shirt-1030.html",
+      "title": "Polo Shirt",
+      "brand": "Composable!",
+      "price": "USD $42.00",
+      "price_value": 42.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Classic pique polo with Composable! logo. Durable for play and school.",
+      "product_details": [
+        "Category: Boys.",
+        "Classic pique polo with Composable! logo. Durable for play and school.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/boys-polo-shirt-1030-1.png",
+        "images/boys-polo-shirt-1030-2.png",
+        "images/boys-polo-shirt-1030-3.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $42.00"
+    },
+    {
+      "system_id": "cargo-shorts-1031",
+      "url": "/boys/cargo-shorts-1031.html",
+      "title": "Cargo Shorts",
+      "brand": "Composable!",
+      "price": "USD $48.00",
+      "price_value": 48.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Cotton twill cargo shorts with multiple pockets. Built for adventure.",
+      "product_details": [
+        "Category: Boys.",
+        "Cotton twill cargo shorts with multiple pockets. Built for adventure.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $48.00"
+    },
+    {
+      "system_id": "hooded-sweatshirt-1032",
+      "url": "/boys/hooded-sweatshirt-1032.html",
+      "title": "Hooded Sweatshirt",
+      "brand": "Composable!",
+      "price": "USD $55.00",
+      "price_value": 55.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Fleece-backed hoodie with drawstring hood. Everyday comfort.",
+      "product_details": [
+        "Category: Boys.",
+        "Fleece-backed hoodie with drawstring hood. Everyday comfort.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $55.00"
+    },
+    {
+      "system_id": "chino-pants-1033",
+      "url": "/boys/chino-pants-1033.html",
+      "title": "Chino Pants",
+      "brand": "Composable!",
+      "price": "USD $52.00",
+      "price_value": 52.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Flat-front chinos in stretch cotton. Dress up or down.",
+      "product_details": [
+        "Category: Boys.",
+        "Flat-front chinos in stretch cotton. Dress up or down.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $52.00"
+    },
+    {
+      "system_id": "canvas-sneakers-1034",
+      "url": "/boys/canvas-sneakers-1034.html",
+      "title": "Canvas Sneakers",
+      "brand": "Composable!",
+      "price": "USD $45.00",
+      "price_value": 45.0,
+      "currency": "USD",
+      "sizes": [
+        "8C",
+        "9C",
+        "10C",
+        "11C",
+        "12C",
+        "13C",
+        "1Y",
+        "2Y",
+        "3Y"
+      ],
+      "description": "Low-top canvas sneakers with rubber sole. Easy on and off.",
+      "product_details": [
+        "Category: Boys.",
+        "Low-top canvas sneakers with rubber sole. Easy on and off.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $45.00"
+    },
+    {
+      "system_id": "graphic-tee-1035",
+      "url": "/boys/graphic-tee-1035.html",
+      "title": "Graphic Tee",
+      "brand": "Composable!",
+      "price": "USD $32.00",
+      "price_value": 32.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Soft cotton tee with subtle Composable! graphic. Screen-printed.",
+      "product_details": [
+        "Category: Boys.",
+        "Soft cotton tee with subtle Composable! graphic. Screen-printed.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $32.00"
+    },
+    {
+      "system_id": "quilted-jacket-1036",
+      "url": "/boys/quilted-jacket-1036.html",
+      "title": "Quilted Jacket",
+      "brand": "Composable!",
+      "price": "USD $68.00",
+      "price_value": 68.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Lightweight quilted jacket with stand collar. For cool days.",
+      "product_details": [
+        "Category: Boys.",
+        "Lightweight quilted jacket with stand collar. For cool days.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $68.00"
+    },
+    {
+      "system_id": "swim-trunks-1037",
+      "url": "/boys/swim-trunks-1037.html",
+      "title": "Swim Trunks",
+      "brand": "Composable!",
+      "price": "USD $38.00",
+      "price_value": 38.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Quick-dry swim trunks with mesh lining. UPF 50 protection.",
+      "product_details": [
+        "Category: Boys.",
+        "Quick-dry swim trunks with mesh lining. UPF 50 protection.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $38.00"
+    },
+    {
+      "system_id": "wool-blend-blazer-1038",
+      "url": "/boys/wool-blend-blazer-1038.html",
+      "title": "Wool Blend Blazer",
+      "brand": "Composable!",
+      "price": "USD $98.00",
+      "price_value": 98.0,
+      "currency": "USD",
+      "sizes": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Mini blazer in wool blend for special occasions. Fully lined.",
+      "product_details": [
+        "Category: Boys.",
+        "Mini blazer in wool blend for special occasions. Fully lined.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $98.00"
+    },
+    {
+      "system_id": "backpack-1039",
+      "url": "/boys/backpack-1039.html",
+      "title": "Backpack",
+      "brand": "Composable!",
+      "price": "USD $65.00",
+      "price_value": 65.0,
+      "currency": "USD",
+      "sizes": [
+        "One Size"
+      ],
+      "description": "Nylon backpack with laptop sleeve and side pockets. For school or travel.",
+      "product_details": [
+        "Category: Boys.",
+        "Nylon backpack with laptop sleeve and side pockets. For school or travel.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Boys",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $65.00"
+    },
+    {
+      "system_id": "floral-dress-1040",
+      "url": "/girls/floral-dress-1040.html",
+      "title": "Floral Dress",
+      "brand": "Composable!",
+      "price": "USD $68.00",
+      "price_value": 68.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Cotton poplin dress with smocked bodice and full skirt. Perfect for parties.",
+      "product_details": [
+        "Category: Girls.",
+        "Cotton poplin dress with smocked bodice and full skirt. Perfect for parties.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/girls-floral-dress-1040-1.png",
+        "images/girls-floral-dress-1040-2.png",
+        "images/girls-floral-dress-1040-3.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $68.00"
+    },
+    {
+      "system_id": "cardigan-1041",
+      "url": "/girls/cardigan-1041.html",
+      "title": "Cardigan",
+      "brand": "Composable!",
+      "price": "USD $52.00",
+      "price_value": 52.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Knit cardigan with pearl buttons. Layer over dresses or tees.",
+      "product_details": [
+        "Category: Girls.",
+        "Knit cardigan with pearl buttons. Layer over dresses or tees.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $52.00"
+    },
+    {
+      "system_id": "leggings-2-pack-1042",
+      "url": "/girls/leggings-2-pack-1042.html",
+      "title": "Leggings 2-Pack",
+      "brand": "Composable!",
+      "price": "USD $38.00",
+      "price_value": 38.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Stretch cotton leggings in two colors. Everyday basics.",
+      "product_details": [
+        "Category: Girls.",
+        "Stretch cotton leggings in two colors. Everyday basics.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $38.00"
+    },
+    {
+      "system_id": "mary-jane-shoes-1043",
+      "url": "/girls/mary-jane-shoes-1043.html",
+      "title": "Mary Jane Shoes",
+      "brand": "Composable!",
+      "price": "USD $48.00",
+      "price_value": 48.0,
+      "currency": "USD",
+      "sizes": [
+        "8C",
+        "9C",
+        "10C",
+        "11C",
+        "12C",
+        "13C",
+        "1Y",
+        "2Y",
+        "3Y"
+      ],
+      "description": "Patent leather Mary Janes with adjustable strap. Classic style.",
+      "product_details": [
+        "Category: Girls.",
+        "Patent leather Mary Janes with adjustable strap. Classic style.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $48.00"
+    },
+    {
+      "system_id": "tutu-skirt-1044",
+      "url": "/girls/tutu-skirt-1044.html",
+      "title": "Tutu Skirt",
+      "brand": "Composable!",
+      "price": "USD $42.00",
+      "price_value": 42.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "description": "Tulle skirt with elastic waist. Dress-up play essential.",
+      "product_details": [
+        "Category: Girls.",
+        "Tulle skirt with elastic waist. Dress-up play essential.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $42.00"
+    },
+    {
+      "system_id": "long-sleeve-tee-1045",
+      "url": "/girls/long-sleeve-tee-1045.html",
+      "title": "Long-Sleeve Tee",
+      "brand": "Composable!",
+      "price": "USD $28.00",
+      "price_value": 28.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Soft cotton long-sleeve with roll-up cuffs. Striped or solid.",
+      "product_details": [
+        "Category: Girls.",
+        "Soft cotton long-sleeve with roll-up cuffs. Striped or solid.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $28.00"
+    },
+    {
+      "system_id": "puffer-vest-1046",
+      "url": "/girls/puffer-vest-1046.html",
+      "title": "Puffer Vest",
+      "brand": "Composable!",
+      "price": "USD $58.00",
+      "price_value": 58.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Lightweight puffer vest with snap closure. For layering.",
+      "product_details": [
+        "Category: Girls.",
+        "Lightweight puffer vest with snap closure. For layering.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $58.00"
+    },
+    {
+      "system_id": "hair-bow-set-1047",
+      "url": "/girls/hair-bow-set-1047.html",
+      "title": "Hair Bow Set",
+      "brand": "Composable!",
+      "price": "USD $22.00",
+      "price_value": 22.0,
+      "currency": "USD",
+      "sizes": [
+        "One Size"
+      ],
+      "description": "Set of three satin hair bows. Clip attachment.",
+      "product_details": [
+        "Category: Girls.",
+        "Set of three satin hair bows. Clip attachment.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $1.00"
+    },
+    {
+      "system_id": "denim-jacket-1048",
+      "url": "/girls/denim-jacket-1048.html",
+      "title": "Denim Jacket",
+      "brand": "Composable!",
+      "price": "USD $62.00",
+      "price_value": 62.0,
+      "currency": "USD",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "description": "Stretch denim jacket with silver buttons. Cropped fit.",
+      "product_details": [
+        "Category: Girls.",
+        "Stretch denim jacket with silver buttons. Cropped fit.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $62.00"
+    },
+    {
+      "system_id": "sparkle-sneakers-1049",
+      "url": "/girls/sparkle-sneakers-1049.html",
+      "title": "Sparkle Sneakers",
+      "brand": "Composable!",
+      "price": "USD $45.00",
+      "price_value": 45.0,
+      "currency": "USD",
+      "sizes": [
+        "8C",
+        "9C",
+        "10C",
+        "11C",
+        "12C",
+        "13C",
+        "1Y",
+        "2Y",
+        "3Y"
+      ],
+      "description": "Canvas sneakers with subtle sparkle detail. Comfortable for all-day wear.",
+      "product_details": [
+        "Category: Girls.",
+        "Canvas sneakers with subtle sparkle detail. Comfortable for all-day wear.",
+        "Crafted with attention to detail for lasting quality.",
+        "Composable! — where style meets versatility.",
+        "Imported."
+      ],
+      "category": "Girls",
+      "images": [
+        "images/missing-product.png"
+      ],
+      "list_name": "QUICKSHOP",
+      "list_price": "USD $45.00"
+    }
+  ]
+}

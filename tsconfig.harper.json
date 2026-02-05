@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": false,
+    "outDir": "custom-resources",
+    "rootDir": "custom-resources",
+    "declaration": false
+  },
+  "include": ["custom-resources/**/*.ts"],
+  "exclude": []
+}
