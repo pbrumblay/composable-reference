@@ -37,7 +37,7 @@
   "harperdb": {
     "component": true,
     "resources": [
-      "custom-resources/index.js"
+      "custom-resources/index.ts"
     ]
   }
 }
