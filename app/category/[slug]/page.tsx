@@ -5,6 +5,14 @@ import { getProductsByCategory, getCategories } from '@/app/actions';
 import type { ProductListItem } from '@/schema/product-catalog';
 import type { Metadata } from 'next';
 
+// Enable ISR for category listing pages (revalidate cached HTML/data periodically).
+export const revalidate = 60;
+
+export async function generateStaticParams() {
+  const categories = await getCategories();
+  return categories.map((c) => ({ slug: c.slug }));
+}
+
 function productImageSrc(images: string[]): string {
   const first = images?.[0];
   if (!first) return '/images/missing-product.png';

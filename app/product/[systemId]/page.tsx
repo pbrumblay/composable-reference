@@ -1,12 +1,20 @@
 import Link from 'next/link';
-import { getProductBySystemId } from '@/app/actions';
+import { getProductBySystemId, getProductSystemIds } from '@/app/actions';
 import { CATEGORY_TO_SLUG } from '@/schema/product-catalog';
 import type { Metadata } from 'next';
 import { ProductGallery } from './ProductGallery';
 import { ProductTagline } from './ProductTagline';
 import { Suspense } from 'react';
 
+// Enable ISR for product detail pages (revalidate cached HTML/data periodically).
+export const revalidate = 60;
+
 type Props = { params: Promise<{ systemId: string }> };
+
+export async function generateStaticParams() {
+  const ids = await getProductSystemIds();
+  return ids.map((systemId) => ({ systemId }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { systemId } = await params;

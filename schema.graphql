@@ -22,3 +22,17 @@ type ProductTagline @table(expiration: 180) @export {
   id: ID @primaryKey
   tagline: String
 }
+
+# Next.js ISR cache: durable storage for incremental static regeneration.
+type IsrCache @table @export {
+  id: ID @primaryKey
+  data: String
+  lastModified: Float
+}
+
+# Index of cache keys by tag for revalidateTag(tag).
+type IsrCacheTag @table @export {
+  id: ID @primaryKey
+  cacheKey: String @indexed
+  tag: String @indexed
+}

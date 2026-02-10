@@ -51,7 +51,21 @@ export interface Product {
   );
   
 
+export interface IsrCacheEntry {
+  id: string;
+  data: string;
+  lastModified: number;
+}
+
+export interface IsrCacheTagEntry {
+  id: string;
+  cacheKey: string;
+  tag: string;
+}
+
 export interface ProductCatalogSchema {
     product: Product;
     productTagline: ProductTagline;
+    isrCache: IsrCacheEntry;
+    isrCacheTag: IsrCacheTagEntry;
 }

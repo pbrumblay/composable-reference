@@ -5,13 +5,11 @@
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
-    "build:harper": "tsc -p tsconfig.harper.json",
-    "dev": "npm run build:harper && MQTT_WEBSOCKET=false harperdb-nextjs dev",
-    "build": "npm run build:harper && harperdb-nextjs build",
+    "dev": "MQTT_WEBSOCKET=false harperdb-nextjs dev",
+    "build": "harperdb-nextjs build",
     "start": "harperdb-nextjs start",
     "lint": "next lint",
-    "format": "prettier --write .",
-    "repl": "node repl.js"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@harperdb/nextjs": "^1.1.4",
@@ -37,7 +35,7 @@
   "harperdb": {
     "component": true,
     "resources": [
-      "custom-resources/index.js"
+      "resources/index.ts"
     ]
   }
 }

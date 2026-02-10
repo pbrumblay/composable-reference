@@ -76,6 +76,21 @@ export async function getCategories(): Promise<{ slug: string; name: string }[]>
   ];
 }
 
+/** All product ids for generateStaticParams (ISR cache keys per product). */
+export async function getProductSystemIds(): Promise<string[]> {
+  try {
+    await import('harperdb');
+    const ids: string[] = [];
+    for await (const row of tables.Product.search({})) {
+      ids.push(String((row as { id: string }).id));
+    }
+    return ids;
+  } catch (err) {
+    console.error('getProductSystemIds error', err);
+    return [];
+  }
+}
+
 /** Get product tagline from CMS via Harper ProductTagline (read-through cache, 3 min TTL). */
 export async function getProductTagline(systemId: string): Promise<ProductTagline | null> {
   try {
