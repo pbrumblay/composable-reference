@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
 import Link from 'next/link';
 import Image from 'next/image';
 import { Suspense } from 'react';
@@ -8,10 +9,10 @@ import type { Metadata } from 'next';
 // Enable ISR for category listing pages (revalidate cached HTML/data periodically).
 export const revalidate = 60;
 
-export async function generateStaticParams() {
-  const categories = await getCategories();
-  return categories.map((c) => ({ slug: c.slug }));
-}
+// export async function generateStaticParams() {
+//   const categories = await getCategories();
+//   return categories.map((c) => ({ slug: c.slug }));
+// }
 
 function productImageSrc(images: string[]): string {
   const first = images?.[0];

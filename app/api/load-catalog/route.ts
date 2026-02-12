@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
 /**
  * POST /api/load-catalog — Load product catalog from data/composable-catalog.json
  * into the HarperDB Product table. Use for initial load to get the app up and running...
@@ -9,6 +10,7 @@
 
 import { readFile } from 'fs/promises';
 import path from 'path';
+import { tables } from 'harperdb';
 
 function mapDetailToRecord(detail: Record<string, unknown>) {
   return {
@@ -42,9 +44,7 @@ export async function POST() {
 
     const records = details.map(mapDetailToRecord);
 
-    const { tables } =  await import('harperdb');
-
-    await tables.product.operation(
+    await tables.Product.operation(
       { operation: 'upsert', records },
       undefined
     );

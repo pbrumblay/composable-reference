@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
 import Link from 'next/link';
 import { getProductBySystemId, getProductSystemIds } from '@/app/actions';
 import { CATEGORY_TO_SLUG } from '@/schema/product-catalog';
@@ -11,10 +12,10 @@ export const revalidate = 60;
 
 type Props = { params: Promise<{ systemId: string }> };
 
-export async function generateStaticParams() {
-  const ids = await getProductSystemIds();
-  return ids.map((systemId) => ({ systemId }));
-}
+// export async function generateStaticParams() {
+//   const ids = await getProductSystemIds();
+//   return ids.map((systemId) => ({ systemId }));
+// }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { systemId } = await params;

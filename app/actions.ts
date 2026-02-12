@@ -1,5 +1,6 @@
-'use server';
+// SPDX-License-Identifier: AGPL-3.0-or-later
 import type { Product, ProductListItem, ProductTagline } from '@/schema/product-catalog';
+import { tables } from 'harperdb';
 
 function toListItem(p: { id: string; title: string; price: string; list_price: string; url: string; category: string; images: string[] }): ProductListItem {
   return {
@@ -23,8 +24,7 @@ const SLUG_TO_CATEGORY: Record<string, string> = {
 
 export async function getProductsByCategory(categorySlug: string): Promise<ProductListItem[]> {
   try {
-    await import('harperdb');
-    const category = SLUG_TO_CATEGORY[categorySlug.toLowerCase()] ?? categorySlug;
+   const category = SLUG_TO_CATEGORY[categorySlug.toLowerCase()] ?? categorySlug;
 
     const items: ProductListItem[] = [];
     for await (const row of tables.Product.search({ conditions: [ { attribute: 'category', value: category } ]})) {
@@ -39,7 +39,6 @@ export async function getProductsByCategory(categorySlug: string): Promise<Produ
 
 export async function getProductBySystemId(systemId: string): Promise<Product | null> {
   try {
-    await import('harperdb');
     const row = await tables.Product.get(systemId);
     if (!row) return null;
     const r = row as Record<string, unknown>;
@@ -79,7 +78,6 @@ export async function getCategories(): Promise<{ slug: string; name: string }[]>
 /** All product ids for generateStaticParams (ISR cache keys per product). */
 export async function getProductSystemIds(): Promise<string[]> {
   try {
-    await import('harperdb');
     const ids: string[] = [];
     for await (const row of tables.Product.search({})) {
       ids.push(String((row as { id: string }).id));
@@ -94,7 +92,6 @@ export async function getProductSystemIds(): Promise<string[]> {
 /** Get product tagline from CMS via Harper ProductTagline (read-through cache, 3 min TTL). */
 export async function getProductTagline(systemId: string): Promise<ProductTagline | null> {
   try {
-    await import('harperdb');
     const row = await tables.ProductTagline.get(systemId);
     if (!row) return null;
     const r = row as Record<string, unknown>;

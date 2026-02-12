@@ -13,7 +13,3 @@ jsResource:
 '@harperdb/nextjs':
   package: '@harperdb/nextjs'
   files: '*'
-  # Use webpack so harperdb (runtime-only, not in node_modules) is handled via externals
-  buildCommand: 'npx next build --webpack'
-
-

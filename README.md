@@ -13,10 +13,10 @@ A reference ecommerce app built with [Next.js](https://nextjs.org/) and [HarperD
 ## Tech stack
 
 - **Node.js** 22+
-- **Next.js** 15 (App Router)
+- **Next.js** 16 (App Router)
 - **TypeScript**
-- **HarperDB** (schema + custom function for catalog load)
-- **React** 18
+- **HarperDB** 4.7 (schema + custom function for catalog load)
+- **React** 19
 
 ## Quick start
 
@@ -51,7 +51,7 @@ This reads `data/composable-catalog.json` and upserts all products into the `Pro
 
 ### 3. (Optional) Product taglines from CMS
 
-Product taglines are loaded from a fictional external CMS and cached in Harper with a 3-minute TTL (read-through). The source lives in `harper/resources.ts` (compiled to `harper/resources.js` for Harper).
+Product taglines are loaded from a fictional external CMS and cached in Harper with a 3-minute TTL (read-through). The source lives in `resources/product-tagline.ts` and is included in the barrel file `resources/index.ts` .
 
 1. Copy env and set values (see `.env.example`). Harper loads `.env` via the built-in `loadEnv` component in `config.yaml`, so `ProductTaglineSource` can read `CMS_URL` and `CMS_API_KEY`.
 
@@ -68,7 +68,7 @@ Product taglines are loaded from a fictional external CMS and cached in Harper w
 |------|--------|
 | `schema.graphql` | HarperDB table definition (Product, ProductTagline). Used for GraphQL and REST. |
 | `config.yaml` | Harper component config: Next.js, GraphQL, jsResource, custom routes. |
-| `harper/resources.ts` | Harper custom resources (TypeScript); ProductTagline source fetches CMS directly. Built to `harper/resources.js`. |
+| `resources/index.ts` | Harper custom resources (TypeScript); ProductTagline source fetches from (fake) CMS directly. |
 | `app/api/load-catalog/route.ts` | Next.js API route: POST `/api/load-catalog` to load/refresh catalog. |
 | `data/composable-catalog.json` | Source product catalog (list + details). |
 | `app/` | Next.js App Router: layout, home, category, product pages, actions. |
@@ -76,9 +76,14 @@ Product taglines are loaded from a fictional external CMS and cached in Harper w
 | `public/images/` | Static images served at `/images/`. |
 
 
-## Catalog refresh 
+## Catalog refresh
 
 ```http
 POST http://<your-instance>/api/load-catalog
 ```
+
+## License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
+See [LICENSE](LICENSE) for the full text. In short: you may use, modify, and distribute this software under the same license, and if you run a modified version on a network server, you must offer the corresponding source to users who interact with it.
 
