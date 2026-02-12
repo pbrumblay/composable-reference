@@ -43,6 +43,6 @@
   "exclude": [
     "node_modules",
     "routes",
-    "custom-resources"
+    "resources"
   ]
 }

@@ -4,15 +4,12 @@
 loadEnv:
   files: '.env'
 
-graphql: true
 graphqlSchema:
   files: 'schema.graphql'
 
 jsResource:
-  files: 'custom-resources/product-tagline.js'
+  files: 'resources/index.ts'
 
 '@harperdb/nextjs':
   package: '@harperdb/nextjs'
   files: '*'
-
-

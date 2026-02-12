@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
 /**
  * Product type matching HarperDB schema (schema.graphql) and catalog details.
  */
@@ -51,7 +52,21 @@ export interface Product {
   );
   
 
+export interface IsrCacheEntry {
+  id: string;
+  data: string;
+  lastModified: number;
+}
+
+export interface IsrCacheTagEntry {
+  id: string;
+  cacheKey: string;
+  tag: string;
+}
+
 export interface ProductCatalogSchema {
-    product: Product;
-    productTagline: ProductTagline;
+    Product: Product;
+    ProductTagline: ProductTagline;
+    IsrCache: IsrCacheEntry;
+    IsrCacheTag: IsrCacheTagEntry;
 }
