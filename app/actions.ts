@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
+'use server';
+
 import type { Product, ProductListItem, ProductTagline } from '@/schema/product-catalog';
-import { tables } from 'harperdb';
+
+// Load HarperDB once at module load; runtime then exposes global `tables`. Turbopack-friendly (no webpack).
+await import('harperdb');
 
 function toListItem(p: { id: string; title: string; price: string; list_price: string; url: string; category: string; images: string[] }): ProductListItem {
   return {
@@ -24,7 +28,7 @@ const SLUG_TO_CATEGORY: Record<string, string> = {
 
 export async function getProductsByCategory(categorySlug: string): Promise<ProductListItem[]> {
   try {
-   const category = SLUG_TO_CATEGORY[categorySlug.toLowerCase()] ?? categorySlug;
+    const category = SLUG_TO_CATEGORY[categorySlug.toLowerCase()] ?? categorySlug;
 
     const items: ProductListItem[] = [];
     for await (const row of tables.Product.search({ conditions: [ { attribute: 'category', value: category } ]})) {
@@ -101,7 +105,12 @@ export async function getProductTagline(systemId: string): Promise<ProductTaglin
     };
     return out;
   } catch (err) {
-    console.error('getProductTagline error', err);
+    const isPrerenderCutoff =
+      err instanceof Error &&
+      (err.message.includes('prerender is complete') || (err as { digest?: string }).digest === 'HANGING_PROMISE_REJECTION');
+    if (!isPrerenderCutoff) {
+      console.error('getProductTagline error', err);
+    }
     return null;
   }
 }

@@ -9,7 +9,6 @@ export async function ProductTagline({ systemId }: Props) {
 
   if (!tagline?.tagline) {
     return null;
-    console.log('ProductTagline: no tagline found for systemId %s', systemId);
   }
   return (
     <p className="product-detail-tagline" style={{ fontStyle: 'italic', color: 'var(--color-muted)' }}>

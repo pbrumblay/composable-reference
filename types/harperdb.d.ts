@@ -24,7 +24,7 @@ declare module 'harperdb' {
   }
 }
 
-global {
+declare global {
   const tables: {
     [K in keyof ProductCatalogSchema]: Table<ProductCatalogSchema[K]>;
   };

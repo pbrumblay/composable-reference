@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import Link from '@/components/Link';
 import './globals.css';
 
 export const metadata: Metadata = {

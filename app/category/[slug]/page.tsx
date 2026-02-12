@@ -1,18 +1,10 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
-import Link from 'next/link';
+import Link from '@/components/Link';
 import Image from 'next/image';
 import { Suspense } from 'react';
 import { getProductsByCategory, getCategories } from '@/app/actions';
 import type { ProductListItem } from '@/schema/product-catalog';
 import type { Metadata } from 'next';
-
-// Enable ISR for category listing pages (revalidate cached HTML/data periodically).
-export const revalidate = 60;
-
-// export async function generateStaticParams() {
-//   const categories = await getCategories();
-//   return categories.map((c) => ({ slug: c.slug }));
-// }
 
 function productImageSrc(images: string[]): string {
   const first = images?.[0];
@@ -50,7 +42,7 @@ async function CategoryContent({ slug }: { slug: string }) {
     return (
       <div className="empty-state">
         <p>Category not found.</p>
-        <Link href="/" className="back-link">
+        <Link href="/" className="back-link" prefetch={false}>
           ← Back to home
         </Link>
       </div>

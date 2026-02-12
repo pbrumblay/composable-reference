@@ -2,9 +2,9 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  cacheComponents: false,
+  cacheComponents: true,
   serverExternalPackages: ['harperdb'],
-  cacheHandler: import.meta.resolve("./lib/cache-handler.cjs").replace("file://", ""),
+  cacheHandler: require.resolve('./lib/cache-handler.mjs'),
   cacheMaxMemorySize: 0,
 };
 

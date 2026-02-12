@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
-import Link from 'next/link';
+import Link from '@/components/Link';
+import { connection } from 'next/server';
 import { getProductBySystemId, getProductSystemIds } from '@/app/actions';
 import { CATEGORY_TO_SLUG } from '@/schema/product-catalog';
 import type { Metadata } from 'next';
@@ -7,15 +8,7 @@ import { ProductGallery } from './ProductGallery';
 import { ProductTagline } from './ProductTagline';
 import { Suspense } from 'react';
 
-// Enable ISR for product detail pages (revalidate cached HTML/data periodically).
-export const revalidate = 60;
-
 type Props = { params: Promise<{ systemId: string }> };
-
-// export async function generateStaticParams() {
-//   const ids = await getProductSystemIds();
-//   return ids.map((systemId) => ({ systemId }));
-// }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { systemId } = await params;
@@ -27,8 +20,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function ProductDetailPage({ params }: Props) {
- 
+function ProductDetailFallback() {
+  return (
+    <div className="empty-state" aria-busy="true">
+      <p>Loading…</p>
+    </div>
+  );
+}
+
+async function ProductDetailContent({ params }: Props) {
+  await connection();
   const { systemId } = await params;
   const product = await getProductBySystemId(systemId);
 
@@ -57,7 +58,7 @@ export default async function ProductDetailPage({ params }: Props) {
         <div className="product-detail-info">
           <h1>{product.title}</h1>
           <Suspense fallback={<p className="product-detail-tagline" style={{ fontStyle: 'italic', color: 'var(--color-muted)' }} aria-hidden>…</p>}>
-            <ProductTagline systemId={systemId} />          
+            <ProductTagline systemId={systemId} />
           </Suspense>
           <p className="product-detail-price">{product.price}</p>
           <p className="product-detail-description">{product.description}</p>
@@ -76,5 +77,13 @@ export default async function ProductDetailPage({ params }: Props) {
         </div>
       </article>
     </>
+  );
+}
+
+export default function ProductDetailPage({ params }: Props) {
+  return (
+    <Suspense fallback={<ProductDetailFallback />}>
+      <ProductDetailContent params={params} />
+    </Suspense>
   );
 }
