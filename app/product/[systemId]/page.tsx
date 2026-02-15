@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 import { ProductGallery } from './ProductGallery';
 import { ProductTagline } from './ProductTagline';
 import { Suspense } from 'react';
+import { cacheLife, cacheTag } from 'next/cache';
 
 type Props = { params: Promise<{ systemId: string }> };
 
@@ -30,6 +31,9 @@ function ProductDetailFallback() {
 
 async function ProductDetailContent({ params }: Props) {
 	'use cache';
+  cacheLife('minutes');
+  cacheTag('product', 'catalog');
+
 	const { systemId } = await params;
 	const product = await getProductBySystemId(systemId);
 

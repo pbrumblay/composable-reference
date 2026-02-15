@@ -33,4 +33,5 @@ type NextJsIsrCache @table @export {
 type NextJsUseCache @table @export {
 	id: ID @primaryKey
 	data: String
+	tags: [String]
 }

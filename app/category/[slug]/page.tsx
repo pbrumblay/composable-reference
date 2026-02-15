@@ -6,7 +6,7 @@ import { getProductsByCategory } from '@/app/actions';
 import type { ProductListItem } from '@/schema/product-catalog';
 import { CATEGORIES, SLUG_TO_CATEGORY } from '@/schema/product-catalog';
 import type { Metadata } from 'next';
-import { cacheLife } from 'next/cache';
+import { cacheLife, cacheTag } from 'next/cache';
 
 function productImageSrc(images: string[]): string {
 	const first = images?.[0];
@@ -28,8 +28,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 async function CategoryContent({ slug }: { slug: string }) {
 	'use cache';
+  cacheLife('minutes');
+  cacheTag('category', 'catalog');
 	const [products, categories] = await Promise.all([getProductsByCategory(slug), Promise.resolve(CATEGORIES)]);
-	const isValid = categories.some((c) => c.slug === slug);
+	const isValid = Array.isArray(categories) && categories.some((c) => c.slug === slug);
 
 	if (!isValid) {
 		return (
