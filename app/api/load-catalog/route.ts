@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 /**
- * POST /api/load-catalog — Load product catalog from data/composable-catalog.json
- * into the HarperDB Product table. Use for initial load to get the app up and running...
+ * POST /api/load-catalog — Load or refresh product catalog from data/composable-catalog.json
+ * into the HarperDB Product table (upsert). Use for initial load and after catalog updates.
  *
  * WARNING! This is not a recommended pattern for a production application.
  *

@@ -6,9 +6,9 @@ A reference ecommerce app built with [Next.js](https://nextjs.org/) and [HarperD
 
 ## Pages
 
-1. **Home** (`/`) — Hero, categories, and all products.
+1. **Home** (`/`) — Hero and category navigation; product listings are on category pages.
 2. **Category** (`/category/[slug]`) — Products by category (mens, womens, baby, boys, girls).
-3. **Product detail** (`/product/[systemId]`) — Full product info and gallery.
+3. **Product detail** (`/product/[systemId]`) — Full product info, gallery, and tagline (from CMS cache).
 
 ## Tech stack
 
@@ -69,17 +69,38 @@ Product taglines are loaded from a fictional external CMS and cached in Harper w
 | `schema.graphql`                | HarperDB table definition (Product, ProductTagline). Used for GraphQL and REST.               |
 | `config.yaml`                   | Harper component config: Next.js, GraphQL, jsResource, custom routes.                         |
 | `resources/index.ts`            | Harper custom resources (TypeScript); ProductTagline source fetches from (fake) CMS directly. |
-| `app/api/load-catalog/route.ts` | Next.js API route: POST `/api/load-catalog` to load/refresh catalog.                          |
+| `app/api/load-catalog/route.ts`  | Next.js API route: POST `/api/load-catalog` to load/refresh catalog.                          |
+| `app/api/invalidate-cache/route.ts` | Next.js API route: POST `/api/invalidate-cache` with JSON body `{"tag": "product"}` (or `category`, `catalog`) to revalidate cache by tag. |
 | `data/composable-catalog.json`  | Source product catalog (list + details).                                                      |
-| `app/`                          | Next.js App Router: layout, home, category, product pages, actions.                           |
-| `types/`                        | TypeScript types                                                                              |
+| `lib/cache/`                    | Next.js cache handlers: `isr-cache-handler.mjs` (ISR), `use-cache-handler.mjs` (useCache/fetch). Backed by HarperDB tables NextJsIsrCache, NextJsUseCache. |
+| `schema/product-catalog.ts`    | TypeScript types and constants for Product, ProductTagline, categories; aligns with `schema.graphql`. |
+| `app/db/`                       | HarperDB data access: one module per domain (e.g. `products.ts`). Keeps data logic out of a single actions file so the app can grow. |
+| `app/actions.ts`                | Public server API: re-exports `app/db/*` and revalidation helpers (e.g. `revalidateProduct`).  |
+| `app/`                          | Next.js App Router: layout, home, category, product pages.                                   |
+| `components/`                   | Shared UI (e.g. `Link.tsx` with prefetch off by default to reduce cache-handler load).      |
+| `types/`                        | TypeScript types (e.g. HarperDB globals).                                                    |
 | `public/images/`                | Static images served at `/images/`.                                                           |
 
-## Catalog refresh
+Data access is split by domain under `app/db/` (e.g. `products.ts` for Product and ProductTagline). `app/actions.ts` re-exports these and adds cache revalidation, so pages import from `@/app/actions` while new HarperDB logic lives in new files under `app/db/` as the app grows.
+
+## API routes
+
+**Load or refresh catalog** (upserts from `data/composable-catalog.json` into the Product table):
 
 ```http
 POST http://<your-instance>/api/load-catalog
 ```
+
+**Revalidate cache by tag** (e.g. after external catalog updates):
+
+```http
+POST http://<your-instance>/api/invalidate-cache
+Content-Type: application/json
+
+{"tag": "catalog"}
+```
+
+Allowed `tag` values: `product`, `category`, `catalog`.
 
 ## License
 
