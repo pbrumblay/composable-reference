@@ -2,38 +2,35 @@
 # Composable! Ecommerce - HarperDB schema
 
 type Product @table @export {
-  id: ID @primaryKey
-  url: String
-  title: String
-  brand: String
-  price: String
-  price_value: Float
-  currency: String
-  sizes: [String]
-  description: String
-  product_details: [String]
-  category: String @indexed
-  images: [String]
-  list_name: String
-  list_price: String
+	id: ID @primaryKey
+	url: String
+	title: String
+	brand: String
+	price: String
+	price_value: Float
+	currency: String
+	sizes: [String]
+	description: String
+	product_details: [String]
+	category: String @indexed
+	images: [String]
+	list_name: String
+	list_price: String
 }
 
 # Cache table for product taglines from external CMS. 3 min TTL, read-through from ProductTaglineSource.
 type ProductTagline @table(expiration: 180) @export {
-  id: ID @primaryKey
-  tagline: String
+	id: ID @primaryKey
+	tagline: String
 }
 
 # Next.js ISR cache: durable storage for incremental static regeneration.
-type IsrCache @table @export {
-  id: ID @primaryKey
-  data: String
-  lastModified: Float
+type NextJsIsrCache @table @export {
+	id: ID @primaryKey
+	data: String
 }
 
-# Index of cache keys by tag for revalidateTag(tag).
-type IsrCacheTag @table @export {
-  id: ID @primaryKey
-  cacheKey: String @indexed
-  tag: String @indexed
+type NextJsUseCache @table @export {
+	id: ID @primaryKey
+	data: String
 }

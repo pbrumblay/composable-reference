@@ -64,17 +64,16 @@ Product taglines are loaded from a fictional external CMS and cached in Harper w
 
 ## Project layout
 
-| Path | Purpose |
-|------|--------|
-| `schema.graphql` | HarperDB table definition (Product, ProductTagline). Used for GraphQL and REST. |
-| `config.yaml` | Harper component config: Next.js, GraphQL, jsResource, custom routes. |
-| `resources/index.ts` | Harper custom resources (TypeScript); ProductTagline source fetches from (fake) CMS directly. |
-| `app/api/load-catalog/route.ts` | Next.js API route: POST `/api/load-catalog` to load/refresh catalog. |
-| `data/composable-catalog.json` | Source product catalog (list + details). |
-| `app/` | Next.js App Router: layout, home, category, product pages, actions. |
-| `types/` | TypeScript types |
-| `public/images/` | Static images served at `/images/`. |
-
+| Path                            | Purpose                                                                                       |
+| ------------------------------- | --------------------------------------------------------------------------------------------- |
+| `schema.graphql`                | HarperDB table definition (Product, ProductTagline). Used for GraphQL and REST.               |
+| `config.yaml`                   | Harper component config: Next.js, GraphQL, jsResource, custom routes.                         |
+| `resources/index.ts`            | Harper custom resources (TypeScript); ProductTagline source fetches from (fake) CMS directly. |
+| `app/api/load-catalog/route.ts` | Next.js API route: POST `/api/load-catalog` to load/refresh catalog.                          |
+| `data/composable-catalog.json`  | Source product catalog (list + details).                                                      |
+| `app/`                          | Next.js App Router: layout, home, category, product pages, actions.                           |
+| `types/`                        | TypeScript types                                                                              |
+| `public/images/`                | Static images served at `/images/`.                                                           |
 
 ## Catalog refresh
 
@@ -86,4 +85,3 @@ POST http://<your-instance>/api/load-catalog
 
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
 See [LICENSE](LICENSE) for the full text. In short: you may use, modify, and distribute this software under the same license, and if you run a modified version on a network server, you must offer the corresponding source to users who interact with it.
-

@@ -1,19 +1,19 @@
 {
-  "feed_type": "full",
-  "records": [
-    {
-      "system_id": "classic-wool-blazer-1000",
-      "price": "USD 495,00",
-      "price_value": 495.0,
-      "currency": "USD",
-      "list_price": "USD 495,00"
-    },
-    {
-      "system_id": "cashmere-crewneck-sweater-1001",
-      "price": "USD 385,00",
-      "price_value": 385.0,
-      "currency": "USD",
-      "list_price": "USD 385,00"
-    }
-  ]
+	"feed_type": "full",
+	"records": [
+		{
+			"system_id": "classic-wool-blazer-1000",
+			"price": "USD 495,00",
+			"price_value": 495.0,
+			"currency": "USD",
+			"list_price": "USD 495,00"
+		},
+		{
+			"system_id": "cashmere-crewneck-sweater-1001",
+			"price": "USD 385,00",
+			"price_value": 385.0,
+			"currency": "USD",
+			"list_price": "USD 385,00"
+		}
+	]
 }

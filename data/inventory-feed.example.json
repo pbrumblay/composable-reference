@@ -1,8 +1,8 @@
 {
-  "feed_type": "full",
-  "records": [
-    { "system_id": "classic-wool-blazer-1000", "quantity": 42 },
-    { "system_id": "cashmere-crewneck-sweater-1001", "quantity": 18 },
-    { "system_id": "slim-fit-oxford-shirt-1002", "quantity": 0 }
-  ]
+	"feed_type": "full",
+	"records": [
+		{ "system_id": "classic-wool-blazer-1000", "quantity": 42 },
+		{ "system_id": "cashmere-crewneck-sweater-1001", "quantity": 18 },
+		{ "system_id": "slim-fit-oxford-shirt-1002", "quantity": 0 }
+	]
 }

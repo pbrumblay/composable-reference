@@ -9,5 +9,5 @@ type Props = ComponentProps<typeof NextLink>;
  * prefetching every viewport link. Pass prefetch={true} to opt in.
  */
 export default function Link({ prefetch = false, ...rest }: Props) {
-  return <NextLink prefetch={prefetch} {...rest} />;
+	return <NextLink prefetch={prefetch} {...rest} />;
 }
