@@ -12,10 +12,13 @@ type Product @table @export {
 	sizes: [String]
 	description: String
 	product_details: [String]
-	category: String @indexed
+	category: String
 	images: [String]
 	list_name: String
 	list_price: String
+	color: [String]
+	fabric: [String]
+	pattern: [String]
 }
 
 # Cache table for product taglines from external CMS. 3 min TTL, read-through from ProductTaglineSource.

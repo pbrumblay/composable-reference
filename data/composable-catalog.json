@@ -259,9 +259,16 @@
 			"title": "Classic Wool Blazer",
 			"brand": "Composable!",
 			"price": "USD $495.00",
-			"price_value": 495.0,
+			"price_value": 495,
 			"currency": "USD",
-			"sizes": ["36R", "38R", "40R", "42R", "44R", "46R"],
+			"sizes": [
+				"36R",
+				"38R",
+				"40R",
+				"42R",
+				"44R",
+				"46R"
+			],
 			"description": "Tailored Italian wool blazer with notch lapels and signature Composable! lining. Timeless silhouette for the modern gentleman.",
 			"product_details": [
 				"Category: Mens.",
@@ -277,7 +284,18 @@
 				"images/mens-classic-wool-blazer-1000-3.png"
 			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $495.00"
+			"list_price": "USD $495.00",
+			"color": [
+				"Navy",
+				"Charcoal",
+				"Brown"
+			],
+			"fabric": [
+				"Wool"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "cashmere-crewneck-sweater-1001",
@@ -285,9 +303,16 @@
 			"title": "Cashmere Crewneck Sweater",
 			"brand": "Composable!",
 			"price": "USD $385.00",
-			"price_value": 385.0,
+			"price_value": 385,
 			"currency": "USD",
-			"sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+			"sizes": [
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL",
+				"XXL"
+			],
 			"description": "Ultra-soft Mongolian cashmere in a relaxed crewneck. A wardrobe essential from Composable!.",
 			"product_details": [
 				"Category: Mens.",
@@ -297,9 +322,24 @@
 				"Imported."
 			],
 			"category": "Mens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $385.00"
+			"list_price": "USD $385.00",
+			"color": [
+				"Cream",
+				"Gray",
+				"Navy",
+				"Brown"
+			],
+			"fabric": [
+				"Cashmere"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "slim-fit-oxford-shirt-1002",
@@ -307,9 +347,16 @@
 			"title": "Slim Fit Oxford Shirt",
 			"brand": "Composable!",
 			"price": "USD $165.00",
-			"price_value": 165.0,
+			"price_value": 165,
 			"currency": "USD",
-			"sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+			"sizes": [
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL",
+				"XXL"
+			],
 			"description": "Crisp cotton oxford with mother-of-pearl buttons. Slim fit cut for a polished look.",
 			"product_details": [
 				"Category: Mens.",
@@ -319,9 +366,26 @@
 				"Imported."
 			],
 			"category": "Mens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $165.00"
+			"list_price": "USD $165.00",
+			"color": [
+				"Blue",
+				"White",
+				"Pink",
+				"Natural"
+			],
+			"fabric": [
+				"Cotton",
+				"Oxford"
+			],
+			"pattern": [
+				"Solid",
+				"Striped",
+				"Checked & Gingham"
+			]
 		},
 		{
 			"system_id": "leather-derby-shoes-1003",
@@ -329,9 +393,17 @@
 			"title": "Leather Derby Shoes",
 			"brand": "Composable!",
 			"price": "USD $425.00",
-			"price_value": 425.0,
+			"price_value": 425,
 			"currency": "USD",
-			"sizes": ["7", "8", "9", "10", "11", "12", "13"],
+			"sizes": [
+				"7",
+				"8",
+				"9",
+				"10",
+				"11",
+				"12",
+				"13"
+			],
 			"description": "Handcrafted calfskin derby with rubber sole. Built for comfort and lasting style.",
 			"product_details": [
 				"Category: Mens.",
@@ -341,9 +413,22 @@
 				"Imported."
 			],
 			"category": "Mens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $425.00"
+			"list_price": "USD $425.00",
+			"color": [
+				"Brown",
+				"Black",
+				"Tan"
+			],
+			"fabric": [
+				"Leather"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "wool-trousers-1004",
@@ -351,9 +436,16 @@
 			"title": "Wool Trousers",
 			"brand": "Composable!",
 			"price": "USD $295.00",
-			"price_value": 295.0,
+			"price_value": 295,
 			"currency": "USD",
-			"sizes": ["28", "30", "32", "34", "36", "38"],
+			"sizes": [
+				"28",
+				"30",
+				"32",
+				"34",
+				"36",
+				"38"
+			],
 			"description": "Medium-weight stretch wool trousers with pressed crease. Perfect for office or evening.",
 			"product_details": [
 				"Category: Mens.",
@@ -363,9 +455,23 @@
 				"Imported."
 			],
 			"category": "Mens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $295.00"
+			"list_price": "USD $295.00",
+			"color": [
+				"Gray",
+				"Navy",
+				"Brown",
+				"Black"
+			],
+			"fabric": [
+				"Wool"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "quilted-nylon-jacket-1005",
@@ -373,9 +479,16 @@
 			"title": "Quilted Nylon Jacket",
 			"brand": "Composable!",
 			"price": "USD $345.00",
-			"price_value": 345.0,
+			"price_value": 345,
 			"currency": "USD",
-			"sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+			"sizes": [
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL",
+				"XXL"
+			],
 			"description": "Lightweight quilted jacket with ribbed cuffs. Water-resistant finish.",
 			"product_details": [
 				"Category: Mens.",
@@ -385,9 +498,22 @@
 				"Imported."
 			],
 			"category": "Mens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $345.00"
+			"list_price": "USD $345.00",
+			"color": [
+				"Black",
+				"Navy",
+				"Olive"
+			],
+			"fabric": [
+				"Nylon"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "silk-tie-1006",
@@ -395,9 +521,11 @@
 			"title": "Silk Tie",
 			"brand": "Composable!",
 			"price": "USD $125.00",
-			"price_value": 125.0,
+			"price_value": 125,
 			"currency": "USD",
-			"sizes": ["One Size"],
+			"sizes": [
+				"One Size"
+			],
 			"description": "Seven-fold silk tie in a classic width. Made in Italy.",
 			"product_details": [
 				"Category: Mens.",
@@ -407,9 +535,25 @@
 				"Imported."
 			],
 			"category": "Mens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $125.00"
+			"list_price": "USD $125.00",
+			"color": [
+				"Navy",
+				"Burgundy",
+				"Gray",
+				"Blue"
+			],
+			"fabric": [
+				"Silk"
+			],
+			"pattern": [
+				"Solid",
+				"Striped",
+				"Plaid"
+			]
 		},
 		{
 			"system_id": "leather-belt-1007",
@@ -417,9 +561,14 @@
 			"title": "Leather Belt",
 			"brand": "Composable!",
 			"price": "USD $145.00",
-			"price_value": 145.0,
+			"price_value": 145,
 			"currency": "USD",
-			"sizes": ["S", "M", "L", "XL"],
+			"sizes": [
+				"S",
+				"M",
+				"L",
+				"XL"
+			],
 			"description": "Full-grain leather belt with brushed silver buckle. 32 mm width.",
 			"product_details": [
 				"Category: Mens.",
@@ -429,9 +578,22 @@
 				"Imported."
 			],
 			"category": "Mens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $145.00"
+			"list_price": "USD $145.00",
+			"color": [
+				"Brown",
+				"Black",
+				"Tan"
+			],
+			"fabric": [
+				"Leather"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "cotton-chino-shorts-1008",
@@ -439,9 +601,15 @@
 			"title": "Cotton Chino Shorts",
 			"brand": "Composable!",
 			"price": "USD $135.00",
-			"price_value": 135.0,
+			"price_value": 135,
 			"currency": "USD",
-			"sizes": ["28", "30", "32", "34", "36"],
+			"sizes": [
+				"28",
+				"30",
+				"32",
+				"34",
+				"36"
+			],
 			"description": "Garment-dyed cotton chinos with side pockets. Relaxed fit for summer.",
 			"product_details": [
 				"Category: Mens.",
@@ -451,9 +619,23 @@
 				"Imported."
 			],
 			"category": "Mens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $135.00"
+			"list_price": "USD $135.00",
+			"color": [
+				"Tan",
+				"Navy",
+				"Olive",
+				"Khaki"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "merino-wool-cardigan-1009",
@@ -461,9 +643,16 @@
 			"title": "Merino Wool Cardigan",
 			"brand": "Composable!",
 			"price": "USD $275.00",
-			"price_value": 275.0,
+			"price_value": 275,
 			"currency": "USD",
-			"sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+			"sizes": [
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL",
+				"XXL"
+			],
 			"description": "Fine-gauge merino cardigan with horn buttons. Layer piece for year-round wear.",
 			"product_details": [
 				"Category: Mens.",
@@ -473,9 +662,25 @@
 				"Imported."
 			],
 			"category": "Mens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $275.00"
+			"list_price": "USD $275.00",
+			"color": [
+				"Gray",
+				"Navy",
+				"Cream",
+				"Brown"
+			],
+			"fabric": [
+				"Wool",
+				"Merino"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "silk-midi-dress-1010",
@@ -483,9 +688,16 @@
 			"title": "Silk Midi Dress",
 			"brand": "Composable!",
 			"price": "USD $425.00",
-			"price_value": 425.0,
+			"price_value": 425,
 			"currency": "USD",
-			"sizes": ["XXS", "XS", "S", "M", "L", "XL"],
+			"sizes": [
+				"XXS",
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL"
+			],
 			"description": "Fluid silk dress with concealed zip. Elegant midi length for day or evening.",
 			"product_details": [
 				"Category: Womens.",
@@ -501,7 +713,20 @@
 				"images/womens-silk-midi-dress-1010-3.png"
 			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $425.00"
+			"list_price": "USD $425.00",
+			"color": [
+				"Black",
+				"Navy",
+				"Cream",
+				"Burgundy"
+			],
+			"fabric": [
+				"Silk"
+			],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "cashmere-wrap-coat-1011",
@@ -509,9 +734,15 @@
 			"title": "Cashmere Wrap Coat",
 			"brand": "Composable!",
 			"price": "USD $895.00",
-			"price_value": 895.0,
+			"price_value": 895,
 			"currency": "USD",
-			"sizes": ["XS", "S", "M", "L", "XL"],
+			"sizes": [
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL"
+			],
 			"description": "Double-faced cashmere wrap coat with tie belt. Investment outerwear.",
 			"product_details": [
 				"Category: Womens.",
@@ -521,9 +752,23 @@
 				"Imported."
 			],
 			"category": "Womens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $895.00"
+			"list_price": "USD $895.00",
+			"color": [
+				"Camel",
+				"Gray",
+				"Black",
+				"Cream"
+			],
+			"fabric": [
+				"Cashmere"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "leather-tote-bag-1012",
@@ -531,9 +776,11 @@
 			"title": "Leather Tote Bag",
 			"brand": "Composable!",
 			"price": "USD $550.00",
-			"price_value": 550.0,
+			"price_value": 550,
 			"currency": "USD",
-			"sizes": ["One Size"],
+			"sizes": [
+				"One Size"
+			],
 			"description": "Structured leather tote with gold-tone hardware. Spacious interior with zip pocket.",
 			"product_details": [
 				"Category: Womens.",
@@ -543,9 +790,22 @@
 				"Imported."
 			],
 			"category": "Womens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $550.00"
+			"list_price": "USD $550.00",
+			"color": [
+				"Brown",
+				"Black",
+				"Tan"
+			],
+			"fabric": [
+				"Leather"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "wool-blend-trousers-1013",
@@ -553,9 +813,18 @@
 			"title": "Wool Blend Trousers",
 			"brand": "Composable!",
 			"price": "USD $285.00",
-			"price_value": 285.0,
+			"price_value": 285,
 			"currency": "USD",
-			"sizes": ["00", "0", "2", "4", "6", "8", "10", "12"],
+			"sizes": [
+				"00",
+				"0",
+				"2",
+				"4",
+				"6",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "High-waist wide-leg trousers in stretch wool. Pressed crease front.",
 			"product_details": [
 				"Category: Womens.",
@@ -565,9 +834,22 @@
 				"Imported."
 			],
 			"category": "Womens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $285.00"
+			"list_price": "USD $285.00",
+			"color": [
+				"Gray",
+				"Navy",
+				"Black"
+			],
+			"fabric": [
+				"Wool"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "silk-blouse-1014",
@@ -575,9 +857,16 @@
 			"title": "Silk Blouse",
 			"brand": "Composable!",
 			"price": "USD $245.00",
-			"price_value": 245.0,
+			"price_value": 245,
 			"currency": "USD",
-			"sizes": ["XXS", "XS", "S", "M", "L", "XL"],
+			"sizes": [
+				"XXS",
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL"
+			],
 			"description": "Cowl neck silk blouse with French seams. Available in seasonal colors.",
 			"product_details": [
 				"Category: Womens.",
@@ -587,9 +876,25 @@
 				"Imported."
 			],
 			"category": "Womens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $245.00"
+			"list_price": "USD $245.00",
+			"color": [
+				"White",
+				"Cream",
+				"Blush",
+				"Navy"
+			],
+			"fabric": [
+				"Silk"
+			],
+			"pattern": [
+				"Solid",
+				"Striped",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "suede-ankle-boots-1015",
@@ -597,9 +902,16 @@
 			"title": "Suede Ankle Boots",
 			"brand": "Composable!",
 			"price": "USD $395.00",
-			"price_value": 395.0,
+			"price_value": 395,
 			"currency": "USD",
-			"sizes": ["5", "6", "7", "8", "9", "10"],
+			"sizes": [
+				"5",
+				"6",
+				"7",
+				"8",
+				"9",
+				"10"
+			],
 			"description": "Block-heel suede ankle boots with side zip. Comfortable all-day height.",
 			"product_details": [
 				"Category: Womens.",
@@ -609,9 +921,22 @@
 				"Imported."
 			],
 			"category": "Womens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $395.00"
+			"list_price": "USD $395.00",
+			"color": [
+				"Tan",
+				"Brown",
+				"Black"
+			],
+			"fabric": [
+				"Suede"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "knit-midi-skirt-1016",
@@ -619,9 +944,15 @@
 			"title": "Knit Midi Skirt",
 			"brand": "Composable!",
 			"price": "USD $165.00",
-			"price_value": 165.0,
+			"price_value": 165,
 			"currency": "USD",
-			"sizes": ["XS", "S", "M", "L", "XL"],
+			"sizes": [
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL"
+			],
 			"description": "Ribbed knit skirt with side slit. Pairs with blazers or sweaters.",
 			"product_details": [
 				"Category: Womens.",
@@ -631,9 +962,25 @@
 				"Imported."
 			],
 			"category": "Womens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $165.00"
+			"list_price": "USD $165.00",
+			"color": [
+				"Black",
+				"Gray",
+				"Navy",
+				"Burgundy"
+			],
+			"fabric": [
+				"Cotton",
+				"Knit"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "leather-crossbody-1017",
@@ -641,9 +988,11 @@
 			"title": "Leather Crossbody",
 			"brand": "Composable!",
 			"price": "USD $325.00",
-			"price_value": 325.0,
+			"price_value": 325,
 			"currency": "USD",
-			"sizes": ["One Size"],
+			"sizes": [
+				"One Size"
+			],
 			"description": "Compact crossbody in pebbled leather. Adjustable strap.",
 			"product_details": [
 				"Category: Womens.",
@@ -653,9 +1002,22 @@
 				"Imported."
 			],
 			"category": "Womens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $325.00"
+			"list_price": "USD $325.00",
+			"color": [
+				"Brown",
+				"Black",
+				"Tan"
+			],
+			"fabric": [
+				"Leather"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "linen-blazer-1018",
@@ -663,9 +1025,16 @@
 			"title": "Linen Blazer",
 			"brand": "Composable!",
 			"price": "USD $365.00",
-			"price_value": 365.0,
+			"price_value": 365,
 			"currency": "USD",
-			"sizes": ["XXS", "XS", "S", "M", "L", "XL"],
+			"sizes": [
+				"XXS",
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL"
+			],
 			"description": "Unlined linen blazer for warm weather. Relaxed fit with patch pockets.",
 			"product_details": [
 				"Category: Womens.",
@@ -675,9 +1044,23 @@
 				"Imported."
 			],
 			"category": "Womens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $365.00"
+			"list_price": "USD $365.00",
+			"color": [
+				"Natural",
+				"Navy",
+				"Cream",
+				"Blue"
+			],
+			"fabric": [
+				"Linen"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "pearl-stud-earrings-1019",
@@ -685,9 +1068,11 @@
 			"title": "Pearl Stud Earrings",
 			"brand": "Composable!",
 			"price": "USD $185.00",
-			"price_value": 185.0,
+			"price_value": 185,
 			"currency": "USD",
-			"sizes": ["One Size"],
+			"sizes": [
+				"One Size"
+			],
 			"description": "18k gold post with cultured pearl. Timeless everyday elegance.",
 			"product_details": [
 				"Category: Womens.",
@@ -697,9 +1082,20 @@
 				"Imported."
 			],
 			"category": "Womens",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $185.00"
+			"list_price": "USD $185.00",
+			"color": [
+				"White",
+				"Cream",
+				"Pink"
+			],
+			"fabric": [],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "organic-cotton-bodysuit-3-pack-1020",
@@ -707,9 +1103,15 @@
 			"title": "Organic Cotton Bodysuit 3-Pack",
 			"brand": "Composable!",
 			"price": "USD $48.00",
-			"price_value": 48.0,
+			"price_value": 48,
 			"currency": "USD",
-			"sizes": ["0-3M", "3-6M", "6-9M", "9-12M", "12-18M"],
+			"sizes": [
+				"0-3M",
+				"3-6M",
+				"6-9M",
+				"9-12M",
+				"12-18M"
+			],
 			"description": "Soft organic cotton bodysuits with snap closure. Gentle on newborn skin.",
 			"product_details": [
 				"Category: Baby.",
@@ -725,7 +1127,20 @@
 				"images/baby-organic-cotton-bodysuit-3-pack-1020-3.png"
 			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $48.00"
+			"list_price": "USD $48.00",
+			"color": [
+				"White",
+				"Cream",
+				"Blue",
+				"Pink"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "knit-romper-1021",
@@ -733,9 +1148,16 @@
 			"title": "Knit Romper",
 			"brand": "Composable!",
 			"price": "USD $52.00",
-			"price_value": 52.0,
+			"price_value": 52,
 			"currency": "USD",
-			"sizes": ["0-3M", "3-6M", "6-9M", "9-12M", "12-18M", "18-24M"],
+			"sizes": [
+				"0-3M",
+				"3-6M",
+				"6-9M",
+				"9-12M",
+				"12-18M",
+				"18-24M"
+			],
 			"description": "Breathable cotton knit romper with envelope neck. Easy diaper access.",
 			"product_details": [
 				"Category: Baby.",
@@ -745,9 +1167,25 @@
 				"Imported."
 			],
 			"category": "Baby",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $52.00"
+			"list_price": "USD $52.00",
+			"color": [
+				"Gray",
+				"Blue",
+				"White",
+				"Cream"
+			],
+			"fabric": [
+				"Cotton",
+				"Knit"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "fleece-bunting-1022",
@@ -755,9 +1193,14 @@
 			"title": "Fleece Bunting",
 			"brand": "Composable!",
 			"price": "USD $78.00",
-			"price_value": 78.0,
+			"price_value": 78,
 			"currency": "USD",
-			"sizes": ["0-3M", "3-6M", "6-9M", "9-12M"],
+			"sizes": [
+				"0-3M",
+				"3-6M",
+				"6-9M",
+				"9-12M"
+			],
 			"description": "Cozy fleece bunting with fold-over mitts and feet. For cold-weather outings.",
 			"product_details": [
 				"Category: Baby.",
@@ -767,9 +1210,23 @@
 				"Imported."
 			],
 			"category": "Baby",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $78.00"
+			"list_price": "USD $78.00",
+			"color": [
+				"Gray",
+				"Navy",
+				"Cream",
+				"Pink"
+			],
+			"fabric": [
+				"Fleece"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "cotton-receiving-blanket-1023",
@@ -777,9 +1234,11 @@
 			"title": "Cotton Receiving Blanket",
 			"brand": "Composable!",
 			"price": "USD $42.00",
-			"price_value": 42.0,
+			"price_value": 42,
 			"currency": "USD",
-			"sizes": ["One Size"],
+			"sizes": [
+				"One Size"
+			],
 			"description": "Lightweight muslin receiving blanket. Perfect for swaddling or stroller.",
 			"product_details": [
 				"Category: Baby.",
@@ -789,9 +1248,24 @@
 				"Imported."
 			],
 			"category": "Baby",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $42.00"
+			"list_price": "USD $42.00",
+			"color": [
+				"Cream",
+				"Blue",
+				"Pink",
+				"Gray"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "knit-booties-1024",
@@ -799,9 +1273,13 @@
 			"title": "Knit Booties",
 			"brand": "Composable!",
 			"price": "USD $32.00",
-			"price_value": 32.0,
+			"price_value": 32,
 			"currency": "USD",
-			"sizes": ["0-6M", "6-12M", "12-18M"],
+			"sizes": [
+				"0-6M",
+				"6-12M",
+				"12-18M"
+			],
 			"description": "Soft knit booties with ribbed cuff. Non-slip sole for first steps.",
 			"product_details": [
 				"Category: Baby.",
@@ -811,9 +1289,23 @@
 				"Imported."
 			],
 			"category": "Baby",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $32.00"
+			"list_price": "USD $32.00",
+			"color": [
+				"Gray",
+				"Cream",
+				"Blue",
+				"Pink"
+			],
+			"fabric": [
+				"Knit"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "organic-cotton-sleep-sack-1025",
@@ -821,9 +1313,14 @@
 			"title": "Organic Cotton Sleep Sack",
 			"brand": "Composable!",
 			"price": "USD $58.00",
-			"price_value": 58.0,
+			"price_value": 58,
 			"currency": "USD",
-			"sizes": ["0-6M", "6-12M", "12-18M", "18-24M"],
+			"sizes": [
+				"0-6M",
+				"6-12M",
+				"12-18M",
+				"18-24M"
+			],
 			"description": "Long-sleeve sleep sack in GOTS organic cotton. Safe sleep design.",
 			"product_details": [
 				"Category: Baby.",
@@ -833,9 +1330,24 @@
 				"Imported."
 			],
 			"category": "Baby",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $58.00"
+			"list_price": "USD $58.00",
+			"color": [
+				"Cream",
+				"Gray",
+				"Blue",
+				"White"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "rattle-&-teether-set-1026",
@@ -843,9 +1355,11 @@
 			"title": "Rattle & Teether Set",
 			"brand": "Composable!",
 			"price": "USD $28.00",
-			"price_value": 28.0,
+			"price_value": 28,
 			"currency": "USD",
-			"sizes": ["One Size"],
+			"sizes": [
+				"One Size"
+			],
 			"description": "BPA-free silicone teether and wooden rattle. Developmental play.",
 			"product_details": [
 				"Category: Baby.",
@@ -855,9 +1369,22 @@
 				"Imported."
 			],
 			"category": "Baby",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $28.00"
+			"list_price": "USD $28.00",
+			"color": [
+				"Natural",
+				"Blue",
+				"Pink",
+				"Cream"
+			],
+			"fabric": [],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "hooded-towel-1027",
@@ -865,9 +1392,11 @@
 			"title": "Hooded Towel",
 			"brand": "Composable!",
 			"price": "USD $45.00",
-			"price_value": 45.0,
+			"price_value": 45,
 			"currency": "USD",
-			"sizes": ["One Size"],
+			"sizes": [
+				"One Size"
+			],
 			"description": "Absorbent hooded towel with embroidered Composable! logo. Post-bath comfort.",
 			"product_details": [
 				"Category: Baby.",
@@ -877,9 +1406,24 @@
 				"Imported."
 			],
 			"category": "Baby",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $45.00"
+			"list_price": "USD $45.00",
+			"color": [
+				"Blue",
+				"Cream",
+				"Gray",
+				"White"
+			],
+			"fabric": [
+				"Terry"
+			],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "knit-hat-&-mittens-set-1028",
@@ -887,9 +1431,13 @@
 			"title": "Knit Hat & Mittens Set",
 			"brand": "Composable!",
 			"price": "USD $38.00",
-			"price_value": 38.0,
+			"price_value": 38,
 			"currency": "USD",
-			"sizes": ["0-6M", "6-12M", "12-18M"],
+			"sizes": [
+				"0-6M",
+				"6-12M",
+				"12-18M"
+			],
 			"description": "Matching knit hat and mittens in soft merino blend.",
 			"product_details": [
 				"Category: Baby.",
@@ -899,9 +1447,25 @@
 				"Imported."
 			],
 			"category": "Baby",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $38.00"
+			"list_price": "USD $38.00",
+			"color": [
+				"Gray",
+				"Navy",
+				"Cream",
+				"Pink"
+			],
+			"fabric": [
+				"Knit",
+				"Wool"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "cotton-pajama-set-1029",
@@ -909,9 +1473,15 @@
 			"title": "Cotton Pajama Set",
 			"brand": "Composable!",
 			"price": "USD $44.00",
-			"price_value": 44.0,
+			"price_value": 44,
 			"currency": "USD",
-			"sizes": ["0-3M", "3-6M", "6-9M", "9-12M", "12-18M"],
+			"sizes": [
+				"0-3M",
+				"3-6M",
+				"6-9M",
+				"9-12M",
+				"12-18M"
+			],
 			"description": "Two-piece pajama set in breathable cotton. Snap closure top.",
 			"product_details": [
 				"Category: Baby.",
@@ -921,9 +1491,25 @@
 				"Imported."
 			],
 			"category": "Baby",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $44.00"
+			"list_price": "USD $44.00",
+			"color": [
+				"Cream",
+				"Blue",
+				"Pink",
+				"Gray"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid",
+				"Striped",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "polo-shirt-1030",
@@ -931,9 +1517,20 @@
 			"title": "Polo Shirt",
 			"brand": "Composable!",
 			"price": "USD $42.00",
-			"price_value": 42.0,
+			"price_value": 42,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Classic pique polo with Composable! logo. Durable for play and school.",
 			"product_details": [
 				"Category: Boys.",
@@ -949,7 +1546,22 @@
 				"images/boys-polo-shirt-1030-3.png"
 			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $42.00"
+			"list_price": "USD $42.00",
+			"color": [
+				"Blue",
+				"White",
+				"Navy",
+				"Red",
+				"Green"
+			],
+			"fabric": [
+				"Cotton",
+				"Poplin"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "cargo-shorts-1031",
@@ -957,9 +1569,20 @@
 			"title": "Cargo Shorts",
 			"brand": "Composable!",
 			"price": "USD $48.00",
-			"price_value": 48.0,
+			"price_value": 48,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Cotton twill cargo shorts with multiple pockets. Built for adventure.",
 			"product_details": [
 				"Category: Boys.",
@@ -969,9 +1592,23 @@
 				"Imported."
 			],
 			"category": "Boys",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $48.00"
+			"list_price": "USD $48.00",
+			"color": [
+				"Tan",
+				"Olive",
+				"Navy",
+				"Brown"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "hooded-sweatshirt-1032",
@@ -979,9 +1616,20 @@
 			"title": "Hooded Sweatshirt",
 			"brand": "Composable!",
 			"price": "USD $55.00",
-			"price_value": 55.0,
+			"price_value": 55,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Fleece-backed hoodie with drawstring hood. Everyday comfort.",
 			"product_details": [
 				"Category: Boys.",
@@ -991,9 +1639,25 @@
 				"Imported."
 			],
 			"category": "Boys",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $55.00"
+			"list_price": "USD $55.00",
+			"color": [
+				"Gray",
+				"Navy",
+				"Black",
+				"Burgundy"
+			],
+			"fabric": [
+				"Cotton",
+				"Flannel"
+			],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "chino-pants-1033",
@@ -1001,9 +1665,20 @@
 			"title": "Chino Pants",
 			"brand": "Composable!",
 			"price": "USD $52.00",
-			"price_value": 52.0,
+			"price_value": 52,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Flat-front chinos in stretch cotton. Dress up or down.",
 			"product_details": [
 				"Category: Boys.",
@@ -1013,9 +1688,23 @@
 				"Imported."
 			],
 			"category": "Boys",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $52.00"
+			"list_price": "USD $52.00",
+			"color": [
+				"Tan",
+				"Navy",
+				"Gray",
+				"Olive"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "canvas-sneakers-1034",
@@ -1023,9 +1712,19 @@
 			"title": "Canvas Sneakers",
 			"brand": "Composable!",
 			"price": "USD $45.00",
-			"price_value": 45.0,
+			"price_value": 45,
 			"currency": "USD",
-			"sizes": ["8C", "9C", "10C", "11C", "12C", "13C", "1Y", "2Y", "3Y"],
+			"sizes": [
+				"8C",
+				"9C",
+				"10C",
+				"11C",
+				"12C",
+				"13C",
+				"1Y",
+				"2Y",
+				"3Y"
+			],
 			"description": "Low-top canvas sneakers with rubber sole. Easy on and off.",
 			"product_details": [
 				"Category: Boys.",
@@ -1035,9 +1734,24 @@
 				"Imported."
 			],
 			"category": "Boys",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $45.00"
+			"list_price": "USD $45.00",
+			"color": [
+				"White",
+				"Navy",
+				"Gray",
+				"Red"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "graphic-tee-1035",
@@ -1045,9 +1759,20 @@
 			"title": "Graphic Tee",
 			"brand": "Composable!",
 			"price": "USD $32.00",
-			"price_value": 32.0,
+			"price_value": 32,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Soft cotton tee with subtle Composable! graphic. Screen-printed.",
 			"product_details": [
 				"Category: Boys.",
@@ -1057,9 +1782,24 @@
 				"Imported."
 			],
 			"category": "Boys",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $32.00"
+			"list_price": "USD $32.00",
+			"color": [
+				"White",
+				"Gray",
+				"Navy",
+				"Black"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Graphics & Prints",
+				"Solid"
+			]
 		},
 		{
 			"system_id": "quilted-jacket-1036",
@@ -1067,9 +1807,20 @@
 			"title": "Quilted Jacket",
 			"brand": "Composable!",
 			"price": "USD $68.00",
-			"price_value": 68.0,
+			"price_value": 68,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Lightweight quilted jacket with stand collar. For cool days.",
 			"product_details": [
 				"Category: Boys.",
@@ -1079,9 +1830,23 @@
 				"Imported."
 			],
 			"category": "Boys",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $68.00"
+			"list_price": "USD $68.00",
+			"color": [
+				"Navy",
+				"Black",
+				"Olive"
+			],
+			"fabric": [
+				"Nylon",
+				"Cotton"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "swim-trunks-1037",
@@ -1089,9 +1854,20 @@
 			"title": "Swim Trunks",
 			"brand": "Composable!",
 			"price": "USD $38.00",
-			"price_value": 38.0,
+			"price_value": 38,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Quick-dry swim trunks with mesh lining. UPF 50 protection.",
 			"product_details": [
 				"Category: Boys.",
@@ -1101,9 +1877,25 @@
 				"Imported."
 			],
 			"category": "Boys",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $38.00"
+			"list_price": "USD $38.00",
+			"color": [
+				"Navy",
+				"Blue",
+				"Green",
+				"Red"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid",
+				"Striped",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "wool-blend-blazer-1038",
@@ -1111,9 +1903,17 @@
 			"title": "Wool Blend Blazer",
 			"brand": "Composable!",
 			"price": "USD $98.00",
-			"price_value": 98.0,
+			"price_value": 98,
 			"currency": "USD",
-			"sizes": ["4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Mini blazer in wool blend for special occasions. Fully lined.",
 			"product_details": [
 				"Category: Boys.",
@@ -1123,9 +1923,22 @@
 				"Imported."
 			],
 			"category": "Boys",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $98.00"
+			"list_price": "USD $98.00",
+			"color": [
+				"Navy",
+				"Gray",
+				"Brown"
+			],
+			"fabric": [
+				"Wool"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "backpack-1039",
@@ -1133,9 +1946,11 @@
 			"title": "Backpack",
 			"brand": "Composable!",
 			"price": "USD $65.00",
-			"price_value": 65.0,
+			"price_value": 65,
 			"currency": "USD",
-			"sizes": ["One Size"],
+			"sizes": [
+				"One Size"
+			],
 			"description": "Nylon backpack with laptop sleeve and side pockets. For school or travel.",
 			"product_details": [
 				"Category: Boys.",
@@ -1145,9 +1960,24 @@
 				"Imported."
 			],
 			"category": "Boys",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $65.00"
+			"list_price": "USD $65.00",
+			"color": [
+				"Black",
+				"Navy",
+				"Gray",
+				"Blue"
+			],
+			"fabric": [
+				"Nylon"
+			],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "floral-dress-1040",
@@ -1155,9 +1985,20 @@
 			"title": "Floral Dress",
 			"brand": "Composable!",
 			"price": "USD $68.00",
-			"price_value": 68.0,
+			"price_value": 68,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Cotton poplin dress with smocked bodice and full skirt. Perfect for parties.",
 			"product_details": [
 				"Category: Girls.",
@@ -1173,7 +2014,21 @@
 				"images/girls-floral-dress-1040-3.png"
 			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $68.00"
+			"list_price": "USD $68.00",
+			"color": [
+				"Pink",
+				"Blue",
+				"Cream",
+				"White"
+			],
+			"fabric": [
+				"Cotton",
+				"Poplin"
+			],
+			"pattern": [
+				"Graphics & Prints",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "cardigan-1041",
@@ -1181,9 +2036,20 @@
 			"title": "Cardigan",
 			"brand": "Composable!",
 			"price": "USD $52.00",
-			"price_value": 52.0,
+			"price_value": 52,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Knit cardigan with pearl buttons. Layer over dresses or tees.",
 			"product_details": [
 				"Category: Girls.",
@@ -1193,9 +2059,25 @@
 				"Imported."
 			],
 			"category": "Girls",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $52.00"
+			"list_price": "USD $52.00",
+			"color": [
+				"Cream",
+				"Pink",
+				"Gray",
+				"Navy"
+			],
+			"fabric": [
+				"Cotton",
+				"Knit"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "leggings-2-pack-1042",
@@ -1203,9 +2085,20 @@
 			"title": "Leggings 2-Pack",
 			"brand": "Composable!",
 			"price": "USD $38.00",
-			"price_value": 38.0,
+			"price_value": 38,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Stretch cotton leggings in two colors. Everyday basics.",
 			"product_details": [
 				"Category: Girls.",
@@ -1215,9 +2108,23 @@
 				"Imported."
 			],
 			"category": "Girls",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $38.00"
+			"list_price": "USD $38.00",
+			"color": [
+				"Black",
+				"Gray",
+				"Navy",
+				"Pink"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "mary-jane-shoes-1043",
@@ -1225,9 +2132,19 @@
 			"title": "Mary Jane Shoes",
 			"brand": "Composable!",
 			"price": "USD $48.00",
-			"price_value": 48.0,
+			"price_value": 48,
 			"currency": "USD",
-			"sizes": ["8C", "9C", "10C", "11C", "12C", "13C", "1Y", "2Y", "3Y"],
+			"sizes": [
+				"8C",
+				"9C",
+				"10C",
+				"11C",
+				"12C",
+				"13C",
+				"1Y",
+				"2Y",
+				"3Y"
+			],
 			"description": "Patent leather Mary Janes with adjustable strap. Classic style.",
 			"product_details": [
 				"Category: Girls.",
@@ -1237,9 +2154,23 @@
 				"Imported."
 			],
 			"category": "Girls",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $48.00"
+			"list_price": "USD $48.00",
+			"color": [
+				"Black",
+				"White",
+				"Brown",
+				"Pink"
+			],
+			"fabric": [
+				"Leather"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "tutu-skirt-1044",
@@ -1247,9 +2178,18 @@
 			"title": "Tutu Skirt",
 			"brand": "Composable!",
 			"price": "USD $42.00",
-			"price_value": 42.0,
+			"price_value": 42,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8"
+			],
 			"description": "Tulle skirt with elastic waist. Dress-up play essential.",
 			"product_details": [
 				"Category: Girls.",
@@ -1259,9 +2199,24 @@
 				"Imported."
 			],
 			"category": "Girls",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $42.00"
+			"list_price": "USD $42.00",
+			"color": [
+				"Pink",
+				"White",
+				"Cream",
+				"Lavender"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "long-sleeve-tee-1045",
@@ -1269,9 +2224,20 @@
 			"title": "Long-Sleeve Tee",
 			"brand": "Composable!",
 			"price": "USD $28.00",
-			"price_value": 28.0,
+			"price_value": 28,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Soft cotton long-sleeve with roll-up cuffs. Striped or solid.",
 			"product_details": [
 				"Category: Girls.",
@@ -1281,9 +2247,24 @@
 				"Imported."
 			],
 			"category": "Girls",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $28.00"
+			"list_price": "USD $28.00",
+			"color": [
+				"White",
+				"Pink",
+				"Gray",
+				"Navy"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid",
+				"Striped"
+			]
 		},
 		{
 			"system_id": "puffer-vest-1046",
@@ -1291,9 +2272,20 @@
 			"title": "Puffer Vest",
 			"brand": "Composable!",
 			"price": "USD $58.00",
-			"price_value": 58.0,
+			"price_value": 58,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Lightweight puffer vest with snap closure. For layering.",
 			"product_details": [
 				"Category: Girls.",
@@ -1303,9 +2295,24 @@
 				"Imported."
 			],
 			"category": "Girls",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $58.00"
+			"list_price": "USD $58.00",
+			"color": [
+				"Black",
+				"Navy",
+				"Pink",
+				"Gray"
+			],
+			"fabric": [
+				"Nylon",
+				"Cotton"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "hair-bow-set-1047",
@@ -1313,9 +2320,11 @@
 			"title": "Hair Bow Set",
 			"brand": "Composable!",
 			"price": "USD $22.00",
-			"price_value": 22.0,
+			"price_value": 22,
 			"currency": "USD",
-			"sizes": ["One Size"],
+			"sizes": [
+				"One Size"
+			],
 			"description": "Set of three satin hair bows. Clip attachment.",
 			"product_details": [
 				"Category: Girls.",
@@ -1325,9 +2334,24 @@
 				"Imported."
 			],
 			"category": "Girls",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $1.00"
+			"list_price": "USD $1.00",
+			"color": [
+				"Pink",
+				"White",
+				"Navy",
+				"Red"
+			],
+			"fabric": [
+				"Silk"
+			],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		},
 		{
 			"system_id": "denim-jacket-1048",
@@ -1335,9 +2359,20 @@
 			"title": "Denim Jacket",
 			"brand": "Composable!",
 			"price": "USD $62.00",
-			"price_value": 62.0,
+			"price_value": 62,
 			"currency": "USD",
-			"sizes": ["2T", "3T", "4T", "4", "5", "6", "7", "8", "10", "12"],
+			"sizes": [
+				"2T",
+				"3T",
+				"4T",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"12"
+			],
 			"description": "Stretch denim jacket with silver buttons. Cropped fit.",
 			"product_details": [
 				"Category: Girls.",
@@ -1347,9 +2382,24 @@
 				"Imported."
 			],
 			"category": "Girls",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $62.00"
+			"list_price": "USD $62.00",
+			"color": [
+				"Blue",
+				"Black",
+				"Gray",
+				"White"
+			],
+			"fabric": [
+				"Cotton",
+				"Denim"
+			],
+			"pattern": [
+				"Solid"
+			]
 		},
 		{
 			"system_id": "sparkle-sneakers-1049",
@@ -1357,9 +2407,19 @@
 			"title": "Sparkle Sneakers",
 			"brand": "Composable!",
 			"price": "USD $45.00",
-			"price_value": 45.0,
+			"price_value": 45,
 			"currency": "USD",
-			"sizes": ["8C", "9C", "10C", "11C", "12C", "13C", "1Y", "2Y", "3Y"],
+			"sizes": [
+				"8C",
+				"9C",
+				"10C",
+				"11C",
+				"12C",
+				"13C",
+				"1Y",
+				"2Y",
+				"3Y"
+			],
 			"description": "Canvas sneakers with subtle sparkle detail. Comfortable for all-day wear.",
 			"product_details": [
 				"Category: Girls.",
@@ -1369,9 +2429,24 @@
 				"Imported."
 			],
 			"category": "Girls",
-			"images": ["images/missing-product.png"],
+			"images": [
+				"images/missing-product.png"
+			],
 			"list_name": "QUICKSHOP",
-			"list_price": "USD $45.00"
+			"list_price": "USD $45.00",
+			"color": [
+				"White",
+				"Pink",
+				"Silver",
+				"Black"
+			],
+			"fabric": [
+				"Cotton"
+			],
+			"pattern": [
+				"Solid",
+				"Graphics & Prints"
+			]
 		}
 	]
 }

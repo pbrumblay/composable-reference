@@ -17,6 +17,9 @@ export interface Product {
 	images: string[];
 	list_name: string;
 	list_price: string;
+	color: string[];
+	fabric: string[];
+	pattern: string[];
 }
 
 export interface ProductListItem {
