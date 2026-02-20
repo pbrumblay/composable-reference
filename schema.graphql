@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 # Composable! Ecommerce - HarperDB schema
 
-type Product @table @export {
+type Product @table {
 	id: ID @primaryKey
 	url: String
 	title: String
@@ -25,12 +25,12 @@ type ProductTagline @table(expiration: 180) @export {
 }
 
 # Next.js ISR cache: durable storage for incremental static regeneration.
-type NextJsIsrCache @table @export {
+type NextJsIsrCache @table {
 	id: ID @primaryKey
 	data: String
 }
 
-type NextJsUseCache @table @export {
+type NextJsUseCache @table {
 	id: ID @primaryKey
 	data: String
 	tags: [String]

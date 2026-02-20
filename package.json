@@ -9,13 +9,15 @@
 		"build": "harperdb-nextjs build",
 		"start": "harperdb-nextjs start",
 		"lint": "next lint --dir .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"deploy": "npx -y dotenv-cli harperdb deploy . restart=rolling replicated=true"
 	},
 	"dependencies": {
 		"@harperdb/nextjs": "^1.1.4",
 		"next": "^16.1.6",
 		"react": "^19.2.4",
-		"react-dom": "^19.2.4"
+		"react-dom": "^19.2.4",
+		"typescript": "^5.7.0"
 	},
 	"devDependencies": {
 		"@harperdb/code-guidelines": "^0.0.2",
@@ -25,8 +27,7 @@
 		"eslint": "^9.27.0",
 		"eslint-config-next": "^15.3.3",
 		"eslint-config-prettier": "^10.1.5",
-		"prettier": "^3.5.3",
-		"typescript": "^5.7.0"
+		"prettier": "^3.5.3"
 	},
 	"prettier": "@harperdb/code-guidelines/prettier",
 	"engines": {
