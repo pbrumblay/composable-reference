@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
-import { getProductTagline } from '@/app/actions';
+import { getProductTagline } from '@/app/db/products';
 
 type Props = { systemId: string };
 

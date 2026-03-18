@@ -1,6 +1,6 @@
 {
 	"name": "composable-reference",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"private": true,
 	"license": "AGPL-3.0",
 	"type": "module",
@@ -11,13 +11,20 @@
 		"lint": "next lint --dir .",
 		"next:build": "SKIP_USE_CACHE_DURING_BUILD=1 next build",
 		"format": "prettier --write .",
-		"deploy": "npx -y dotenv-cli harperdb deploy . restart=rolling replicated=true"
+		"build:prebuilt": "next build",
+		"pack:prebuilt": "node scripts/build-pack-deploy.mjs --pack-only",
+		"deploy": "NEXT_PUBLIC_DEPLOY_MARKER=$(node -e \"process.stdout.write(new Date().toISOString())\") npx -y dotenv-cli harperdb deploy . restart=rolling replicated=true",
+		"deploy:prebuilt": "node scripts/build-pack-deploy.mjs",
+		"deploy:prebuilt:only": "node scripts/build-pack-deploy.mjs --deploy-only"
 	},
 	"dependencies": {
-		"@harperdb/nextjs": "^1.1.5",
+		"@harperdb/nextjs": "^1.2.0",
+		"cbor-x": "^1.6.0",
+		"harperdb": "^4.7.23",
 		"next": "^16.1.6",
 		"react": "^19.2.4",
 		"react-dom": "^19.2.4",
+		"server-only": "^0.0.1",
 		"typescript": "^5.7.0"
 	},
 	"devDependencies": {

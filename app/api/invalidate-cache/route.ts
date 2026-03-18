@@ -10,6 +10,7 @@
  */
 
 import { revalidateProduct, revalidateCategory, revalidateCatalog } from '@/app/actions';
+import { verifyApiKey } from '@/lib/auth/api-key';
 
 const tagHandlers: Record<string, () => Promise<void>> = {
 	product: revalidateProduct,
@@ -18,6 +19,9 @@ const tagHandlers: Record<string, () => Promise<void>> = {
 };
 
 export async function POST(request: Request) {
+	const authError = verifyApiKey(request);
+	if (authError) return authError;
+
 	try {
 		const body = await request.json().catch(() => ({}));
 		const tag = typeof body?.tag === 'string' ? body.tag.trim().toLowerCase() : '';

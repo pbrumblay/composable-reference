@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 import Link from '@/components/Link';
-import { getProductBySystemId } from '@/app/actions';
+import { getProductBySystemId } from '@/app/db/products';
 import { CATEGORY_TO_SLUG } from '@/schema/product-catalog';
 import type { Metadata } from 'next';
 import { ProductGallery } from './ProductGallery';

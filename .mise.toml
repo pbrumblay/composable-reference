@@ -1,0 +1,59 @@
+#:schema https://mise.jdx.dev/schema/mise.json
+
+[tools]
+# Ensure everyone is on the same Node LTS for Next.js 16/17 compatibility
+node = '24'
+podman = 'latest'
+
+[env]
+# Standard local development variables
+HDB_SCHEMA = 'data'
+# mise automatically loads your local secrets from .env.local
+# This file should be in your .gitignore!
+_.file = ".env.local"
+
+
+[tasks."setup"]
+description = "One-command onboarding for new developers"
+alias = "i"
+run = """
+npm install
+mise run skills:sync
+echo "Setup complete. Run 'mise run dev' to start."
+"""
+
+[tasks."dev"]
+description = "Start the full stack: HarperDB + Next.js"
+run = "npm run dev"
+
+[tasks."db:start"]
+description = "Start HarperDB standalone (blocks terminal)"
+run = "npx harperdb run ."
+
+# ----------------------------------------------------------------      
+# AGENT SKILLS MANAGEMENT
+# ----------------------------------------------------------------
+
+[tasks."skills:sync"]
+description = "Sync Agent Skills from registry and stage for Git"
+run = """
+npx skills sync
+git add .agent/skills/
+echo "Agent skills synchronized and staged."
+"""
+
+[tasks."skills:add"]
+description = "Add a new skill to the project (e.g., mise run skills:add nextjs)"
+run = "npx skills add {{arg(name='skill name')}}"
+
+[tasks."skills:check"]
+description = "Verify agent has the right context"
+run = "npx skills list"
+
+# ----------------------------------------------------------------      
+# UTILITIES
+# ----------------------------------------------------------------
+
+[tasks."clean"]
+description = "Nuclear option: reset node_modules and tools"
+run = "rm -rf node_modules && mise install"

@@ -1,15 +1,12 @@
-# Composable! Ecommerce - HarperDB component config
-# Run with: harperdb run composable-reference
-# loadEnv first so .env is available to jsResource (e.g. ProductTaglineSource)
 loadEnv:
   files: '.env'
 
 graphqlSchema:
   files: 'schema.graphql'
 
-jsResource:
-  files: 'resources/index.ts'
-
 '@harperdb/nextjs':
   package: '@harperdb/nextjs'
   files: '*'
+  prebuilt: true
+  runFirst: true
+  port: 9936

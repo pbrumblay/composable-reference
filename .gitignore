@@ -8,6 +8,9 @@ node_modules/
 out/
 .next-env.d.ts
 
+# Prebuilt deploy tarball
+.deploy/
+
 # HarperDB
 *.hdb
 hdb.log

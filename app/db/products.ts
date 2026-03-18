@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
+import 'server-only';
 import type { Product, ProductListItem, ProductTagline } from '@/schema/product-catalog';
 import { SLUG_TO_CATEGORY } from '@/schema/product-catalog';
 

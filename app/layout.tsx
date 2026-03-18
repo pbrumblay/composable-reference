@@ -13,6 +13,8 @@ export default function RootLayout({
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
+	const deployMarker = process.env.NEXT_PUBLIC_DEPLOY_MARKER || 'local-dev';
+
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body suppressHydrationWarning>
@@ -36,6 +38,7 @@ export default function RootLayout({
 				<footer className="site-footer">
 					<div className="site-footer-inner">
 						<span className="site-logo-footer">Composable!</span>
+						<span className="site-deploy-marker">Deploy: {deployMarker}</span>
 					</div>
 				</footer>
 			</body>

@@ -10,6 +10,7 @@
 
 import { readFile } from 'fs/promises';
 import path from 'path';
+import { verifyApiKey } from '@/lib/auth/api-key';
 await import('harperdb');
 
 function mapDetailToRecord(detail: Record<string, unknown>) {
@@ -31,9 +32,22 @@ function mapDetailToRecord(detail: Record<string, unknown>) {
 	};
 }
 
-export async function POST() {
+export async function POST(request: Request) {
+	const authError = verifyApiKey(request);
+	if (authError) return authError;
+
 	try {
-		const catalogPath = path.join(process.cwd(), 'data', 'composable-catalog.json');
+		const catalogPath = path.join(
+			new URL('.', import.meta.url).pathname,
+			'..',
+			'..',
+			'..',
+			'data',
+			'composable-catalog.json',
+		  );
+		// Log the resolved catalog path for debugging
+		console.log('[load-catalog] Resolved catalogPath:', catalogPath);
+
 		const raw = await readFile(catalogPath, 'utf-8');
 		const catalog = JSON.parse(raw) as { details?: Record<string, unknown>[] };
 		const details = catalog.details;

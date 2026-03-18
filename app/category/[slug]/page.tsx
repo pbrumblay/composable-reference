@@ -2,7 +2,7 @@
 import Link from '@/components/Link';
 import Image from 'next/image';
 import { Suspense } from 'react';
-import { getProductsByCategory } from '@/app/actions';
+import { getProductsByCategory } from '@/app/db/products';
 import type { ProductListItem } from '@/schema/product-catalog';
 import { CATEGORIES, SLUG_TO_CATEGORY } from '@/schema/product-catalog';
 import type { Metadata } from 'next';
@@ -27,9 +27,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 async function CategoryContent({ slug }: { slug: string }) {
-	'use cache';
-  cacheLife('minutes');
-  cacheTag('category', 'catalog');
+	'use cache: remote';
+    cacheLife('minutes');
+    cacheTag('category', 'catalog');
+
+
 	const [products, categories] = await Promise.all([getProductsByCategory(slug), Promise.resolve(CATEGORIES)]);
 	const isValid = Array.isArray(categories) && categories.some((c) => c.slug === slug);
 
